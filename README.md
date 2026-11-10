@@ -412,42 +412,52 @@ Las assumptions se expresan como creencias que deberán validarse mediante entre
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Cada hipótesis deriva de una Feature Assumption y utiliza la estructura indicada por Lean UX. En cada caso, los componentes del template se presentan en inglés y el contenido específico de la hipótesis se expresa a continuación.
+Las siguientes hipótesis relacionan las funcionalidades de Trakto Route con resultados observables para los supervisores de transporte y sus clientes. Cada hipótesis establece un indicador cuantitativo y la forma de verificarlo.
 
 ##### Hypothesis Statement 1 – Gestión centralizada
 
-**We believe we will achieve** mayor adopción de la gestión digital de operaciones  
-**If** supervisores de empresas de transporte de carga  
-**Attain** la capacidad de organizar y consultar una operación desde un único sistema  
+**We believe we will achieve** que al menos el **70 % de los supervisores activos** utilice las funciones de gestión o consulta de viajes durante los primeros **seis meses** de operación.  
+**If** los supervisores de empresas de transporte de carga  
+**Attain** la capacidad de gestionar y consultar sus operaciones desde un único sistema  
 **With** la gestión centralizada de viajes, rutas, vehículos y conductores.
+
+**Medición.** Se dividirá el número de supervisores que realicen al menos una acción de gestión o consulta de viajes entre el total de supervisores que hayan iniciado sesión durante el periodo.
 
 ##### Hypothesis Statement 2 – Eventos e incidencias
 
-**We believe we will achieve** mayor trazabilidad de los viajes gestionados  
-**If** supervisores de transporte  
-**Attain** la capacidad de registrar lo ocurrido durante la operación  
-**With** el registro de paradas, descansos, retrasos, problemas e incidencias.
+**We believe we will achieve** que al menos **4 de cada 5 supervisores** puedan identificar la hora y el motivo de una parada registrada **en un máximo de dos minutos y sin ayuda**.  
+**If** los supervisores de transporte  
+**Attain** la capacidad de reconstruir lo ocurrido durante un viaje  
+**With** la consulta de las paradas y sus motivos desde el detalle del viaje.
+
+**Medición.** En una sesión de validación, se pedirá a cada supervisor que localice una parada específica e indique correctamente su hora de inicio y motivo. Se registrará si completó la tarea dentro del tiempo establecido.
 
 ##### Hypothesis Statement 3 – Seguimiento del cliente
 
-**We believe we will achieve** mayor uso recurrente de Trakto Route por parte de clientes  
-**If** clientes que requieren servicios de transporte de carga  
-**Attain** mayor visibilidad y menor incertidumbre sobre sus envíos  
+**We believe we will achieve** que al menos el **60 % de los clientes activos con un envío en curso** consulte por su cuenta el estado o progreso de un envío durante los primeros **ocho meses** de operación.  
+**If** los clientes que requieren servicios de transporte de carga  
+**Attain** la capacidad de conocer el estado de su envío sin depender de llamadas o mensajes al transportista  
 **With** la consulta del estado, progreso y eventos relevantes del viaje asociado a su envío.
+
+**Medición.** Se dividirá el número de clientes que abran la pantalla de seguimiento de al menos uno de sus envíos en curso entre el total de clientes que hayan iniciado sesión y tenido un envío en curso durante el periodo.
 
 ##### Hypothesis Statement 4 – Historial operativo
 
-**We believe we will achieve** mayor consulta de información histórica para revisión de operaciones  
-**If** supervisores de transporte y clientes autorizados  
-**Attain** la capacidad de revisar viajes y eventos anteriores de forma organizada  
-**With** el historial operativo centralizado.
+**We believe we will achieve** que al menos **4 de cada 5 participantes de cada segmento** encuentren un viaje finalizado y consulten su detalle **en un máximo de dos minutos y sin ayuda**.  
+**If** los supervisores de transporte y los clientes autorizados  
+**Attain** la capacidad de recuperar información de operaciones anteriores  
+**With** un historial centralizado de los viajes que cada usuario tiene permiso para consultar.
+
+**Medición.** En una sesión de validación, se pedirá a cada participante que encuentre un viaje finalizado a partir de un dato de referencia y confirme su estado. Se registrará el resultado por separado para supervisores y clientes.
 
 ##### Hypothesis Statement 5 – Acceso por roles
 
-**We believe we will achieve** uso seguro y adecuado de las funcionalidades por cada tipo de usuario  
-**If** supervisores y clientes registrados  
-**Attain** acceso únicamente a la información y acciones que corresponden a su rol  
-**With** autenticación y autorización basada en roles.
+**We believe we will achieve** que el sistema permita el **100 % de las operaciones autorizadas** y bloquee el **100 % de las operaciones no autorizadas** contempladas en la matriz de pruebas de acceso.  
+**If** los supervisores y clientes registrados  
+**Attain** acceso a la información y las acciones que les corresponden  
+**With** la autenticación y la autorización según el rol y los permisos sobre cada viaje.
+
+**Medición.** Se ejecutarán pruebas con cuentas de supervisor y cliente. Se comprobará, por ejemplo, que un cliente pueda consultar su propio envío y que el sistema rechace tanto la consulta de envíos ajenos como la modificación de viajes.
 
 <div style="page-break-after: always;"></div>
 
