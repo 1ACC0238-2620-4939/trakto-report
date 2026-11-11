@@ -4565,6 +4565,210 @@ Las capturas de GitHub muestran la distribución de contribuciones en cada produ
 <div style="page-break-after: always;"></div>
 
 
+#### 4.2.2. Sprint 2
+
+
+Durante el Sprint 2 se conectó la aplicación con el backend y se sincronizó la información. Se incorporaron mapas y servicios geográficos, se mejoró el diseño de la Landing Page y se actualizaron los User Flow Diagrams de las historias core, el prototipo y las hipótesis Lean UX con indicadores cuantitativos.
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.1. Sprint Planning 2
+
+El equipo organizó el trabajo para integrar la aplicación con los servicios y atender la retroalimentación del docente. La siguiente tabla distingue la planificación del registro de cierre.
+
+| Campo | Detalle |
+|---|---|
+| Sprint # | Sprint 2 |
+| Date | 2026-10-15 |
+| Time | 14:00 |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Cesar Alejandro Linares Bernable |
+| Attendees | Cesar Alejandro Linares Bernable / Jeferson Renzo Aguilar Aguayo / Alexander Piero Fernandez Garfias / Jose Raul Chirito Torres / Jean Franck Loa Rojas |
+| Sprint 1 Review Summary | Se revisó la primera versión Android, la Landing Page y el avance aproximado del 70 % del backend, con integración pendiente. |
+| Sprint 1 Retrospective Summary | La planificación prioriza resolver las integraciones pendientes y atender la retroalimentación del profesor |
+| Sprint Goal | Permitir que el usuario opere sobre información sincronizada entre la aplicación y el backend. La revisión comprobará la consulta de datos integrados, el recorrido de rutas y mapas, y las correcciones de experiencia y documentación. |
+| User Stories seleccionadas | US17, US06, US18, US27, US28, US19, US22, US40, US41, US23, US25, US01, US08, US29, US30, US11, US31, US32, US33, US34, US35, US12, US20, US21 |
+| Sum of Story Points | 78 Story Points de la selección propuesta, por confirmar con el tablero |
+| Sprint Velocity | Capacidad aceptada por el equipo por confirmar. La suma seleccionada no constituye velocidad completada. |
+| Inicio y fin del sprint | 2026-10-15  / 2026-11-10 |
+| Sprint Review Meeting | 2026-11-10, 3:00 p. m., hora de Lima, mediante Discord |
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.2. Aspect Leaders and Collaborators
+
+La matriz LACX organiza la participación en backend e integración, aplicación y mapas, así como UX, Landing Page y reporte. Reemplazar cada marcador por L o C según los acuerdos del equipo.
+
+| Team Member | GitHub Username | Integración y backend | Aplicación y mapas | UX, Landing Page y reporte |
+|---|---|---|---|---|
+| Linares Bernable, Cesar Alejandro | Cesar-Linares | — | — | C |
+| Aguilar Aguayo, Jeferson Renzo | JeferSomBlan | — | — | C |
+| Fernandez Garfias, Alexander Piero | Dostoyevsk1 | L | L | L |
+| Chirito Torres, Jose Raul | JoseR044 | — | — | C |
+| Loa Rojas, Jean Franck | JeanLoa | C | C | C |
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.3. Sprint Backlog 2
+
+El backlog descompone las historias seleccionadas en tareas verificables. Las horas y asignaciones nuevas requieren acuerdo del equipo.
+
+![Trakto Route - Sprint Backlog 2](assets/images/chapter4/sprint-2-trello.png)
+
+**Sprint #** Sprint 2.
+
+[Tablero público del Sprint 2](https://trello.com/invite/b/6a9f35b637f25ac414075cf7/ATTIf84a9d213de599cd378224b9c2fa3fe4F4197A6F/mi-tablero-de-trello)
+
+
+La aplicación está conectada y sincronizada con el backend. Al cierre del Sprint 2 queda pendiente la integración de Google Maps SDK y la visualización de rutas dentro de la aplicación, registrada en S2-T13 para continuar en el Sprint 3.
+
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se incorporó la versión AV2 de la aplicación Android, incluyendo servicios de comunicación con el backend, repositorios, almacenamiento local y pantallas para viajes, conductores, vehículos, perfiles y seguimiento.
+
+En el backend se agregaron las dependencias de Geocoding API y Routes API, el Bounded Context de rutas y las capas de comunicación ACL entre los contextos de viajes, flota, seguimiento, perfiles y rutas. Estos cambios permiten integrar la planificación de rutas con la gestión de viajes.
+
+Asimismo, se actualizaron las hipótesis Lean UX del informe. La integración de Google Maps SDK y la representación de rutas dentro de la aplicación quedan como trabajo pendiente para la siguiente iteración.
+
+La siguiente tabla presenta los commits identificados para estos avances.
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
+|---|---|---|---|---|
+| 1ACC0238-2620-4939/trakto-webapp | feature/dazai | 58f4f0b | feat: add av2 proyect | 2026-11-10 |
+| 1ACC0238-2620-4939/trakto-backend | feature/camus | a85bd72 | feat(tracking): add acl for tracking and fleet | 2026-11-04 |
+| 1ACC0238-2620-4939/trakto-backend | feature/camus | 643a23a | build: add Geocoding API dependecy | 2026-11-04 |
+| 1ACC0238-2620-4939/trakto-backend | feature/camus | 1a5afb7 | build: add Routes API dependecy | 2026-11-04 |
+| 1ACC0238-2620-4939/trakto-backend | feature/camus | 922a23f | feat(routes): add bounded context routes | 2026-11-04 |
+| 1ACC0238-2620-4939/trakto-backend | feature/camus | 1dfc103 | build: add API Key | 2026-11-04 |
+| 1ACC0238-2620-4939/trakto-backend | feature/camus | 5759cc3 | feat(fleet): add acl for ACL from Profile context | 2026-11-04 |
+| 1ACC0238-2620-4939/trakto-backend | feature/camus | 0431ba3 | feat(fleet): add acl for ACL from Profile context | 2026-11-10 |
+| 1ACC0238-2620-4939/trakto-report | feature/dazai | 822f662 | doc: fix Lean UX Hypothesis Statements | 2026-11-10 |
+
+
+[Aplicación AV2](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/feature/dazai)
+
+[Backend](https://github.com/1ACC0238-2620-4939/trakto-backend/tree/feature/camus)
+
+[Landing Page](https://github.com/1ACC0238-2620-4939/trakto-website)
+
+[Report](https://github.com/1ACC0238-2620-4939/trakto-report/tree/feature/dazai).
+
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+Se implementaron siete pruebas automatizadas para verificar las reglas del dominio, la persistencia local y el intercambio de datos con la API.
+
+| Tipo | Cantidad | Alcance |
+|---|---:|---|
+| Unitarias | 5 | Estados del viaje, cancelación, coordenadas, normalización de placas y capacidad del vehículo. |
+| Instrumentadas | 2 | Migración de la base de datos Room e intercambio de datos con la API mediante Retrofit. |
+
+**Pruebas unitarias**
+
+![Trakto Route - Resultados de pruebas unitarias](assets/images/chapter4/sprint-2-unit-tests.png)
+
+**Pruebas instrumentadas**
+
+![Trakto Route - Resultados de pruebas instrumentadas](assets/images/chapter4/sprint-2-instrumented-tests.png)
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.6. Execution Evidence for Sprint Review
+
+La ejecución del Sprint 2 comprende la aplicación conectada al backend, la información sincronizada, la visualización de mapas y rutas y la Landing Page actualizada.
+
+![Trakto Route - Aplicación conectada al backend](https://PonerLink.COM/sprint-2-app-backend.png)
+
+![Trakto Route - Mapas y rutas](https://PonerLink.COM/sprint-2-mapas-rutas.png)
+
+![Trakto Route - Landing Page mejorada](https://PonerLink.COM/sprint-2-landing.png)
+
+![Trakto Route - User Flows de historias core](https://PonerLink.COM/sprint-2-user-flows.png)
+
+[Video de ejecución y navegación](https://PonerLink.COM/sprint-2-video).
+
+[Prototipo actualizado](https://PonerLink.COM/prototipo).
+
+[User Flow Diagrams actualizados](https://PonerLink.COM/user-flows).
+
+| Evidencia | Referencia |
+|---|---|
+| Capturas de las pantallas y estados implementados | [PONER EVIDENCIA] |
+| Video de ejecución y navegación | [Video](https://PonerLink.COM/sprint-2-video) |
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.7. Services Documentation Evidence for Sprint Review
+
+Los servicios REST de Trakto Route se documentan mediante OpenAPI y se consultan desde Swagger UI. La documentación describe las operaciones de viajes, flota, seguimiento y cálculo de rutas, incluyendo sus parámetros, datos de entrada y respuestas.
+
+| Historia / servicio | Verbo HTTP | Endpoint y parámetros | Respuesta |
+|---|---|---|---|
+| US17 — Programar viaje | POST | `/api/v1/trips`. Datos del viaje en el cuerpo de la solicitud. | Información del viaje registrado. |
+| US06 — Consultar detalle de viaje | GET | `/api/v1/trips/{tripId}`. Identificador del viaje en la ruta. | Datos del viaje seleccionado. |
+| US19 — Iniciar viaje | PATCH | `/api/v1/trips/{tripId}/start`. Identificador en la ruta y datos de inicio en el cuerpo. | Resultado del inicio del viaje. |
+| US22 — Finalizar viaje | PATCH | `/api/v1/trips/{tripId}/complete`. Identificador en la ruta y datos de finalización en el cuerpo. | Resultado de la finalización del viaje. |
+| US23 — Registrar vehículo | POST | `/api/v1/vehicles`. Datos del vehículo en el cuerpo. | Información del vehículo registrado. |
+| US25 — Registrar conductor | POST | `/api/v1/drivers`. Datos del conductor en el cuerpo. | Información del conductor registrado. |
+| Seguimiento — Consultar última posición | GET | `/api/v1/trackings/trips/{tripId}/last-position`. Identificador del viaje en la ruta. | Último reporte de posición. Devuelve `204 No Content` si todavía no existe un reporte. |
+| Seguimiento — Consultar paradas | GET | `/api/v1/trackings/trips/{tripId}/stops`. Identificador del viaje en la ruta. | Lista de paradas registradas durante el viaje. |
+| Rutas — Calcular recorrido | GET | `/api/v1/routes`. Parámetros `originLatitude`, `originLongitude`, `destinationLatitude` y `destinationLongitude`. | Distancia, duración estimada, polilínea codificada y fecha de cálculo. |
+
+**Repositorio:** [Backend](https://github.com/1ACC0238-2620-4939/backend).
+
+
+[Swagger UI de Trakto Route](https://github.com/1ACC0238-2620-4939/backend).
+
+![Trakto Route - Documentación OpenAPI de los servicios](assets/images/chapter4/sprint-2-openapi.png)
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.8. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se generó el APK de la aplicación Android y se ejecutó en un emulador para verificar su funcionamiento y comunicación con el backend en el entorno de desarrollo.
+
+El despliegue de la solución queda pendiente para una siguiente iteración, cuando se complete el producto.
+
+| Componente | Estado al cierre del Sprint 2 |
+|---|---|
+| Aplicación Android | APK generado y aplicación ejecutada en un emulador. |
+| Backend y base de datos | Utilizados en el entorno de desarrollo para la integración con la aplicación. |
+| Landing Page | Diseño actualizado |
+
+**Ejecución en el emulador Android**
+
+![Trakto Route - Aplicación en ejecución en el emulador](assets/images/chapter4/sprint-2-emulator.png)
+
+<div style="page-break-after: always;"></div>
+
+##### 4.2.2.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo coordinó las actividades mediante Discord y registró los cambios de la aplicación, backend, Landing Page e informe en GitHub. Trello permitió organizar las tareas y dar seguimiento a su avance.
+
+
+**Contribuciones en la aplicación**
+
+![Trakto Route - Contribuciones en la aplicación](assets/images/chapter4/sprint-2-app-contributors.png)
+
+**Contribuciones en el backend**
+
+![Trakto Route - Contribuciones en el backend](assets/images/chapter4/sprint-2-backend-contributors.png)
+
+**Contribuciones en la Landing Page**
+
+![Trakto Route - Contribuciones en la Landing Page](assets/images/chapter4/sprint-2-landing-contributors.png)
+
+**Contribuciones en el informe**
+
+![Trakto Route - Contribuciones en el informe](assets/images/chapter4/sprint-2-report-contributors.png)
+
+<div style="page-break-after: always;"></div>
+
 ### 4.3. Validation Interviews
 
 La validación de Trakto Route considera entrevistas con representantes de las empresas de transporte y los clientes que contratan sus servicios. Las sesiones permiten evaluar la comprensión del Landing Page y la facilidad de uso de la aplicación, identificando oportunidades de mejora.
