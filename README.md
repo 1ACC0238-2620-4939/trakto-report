@@ -4223,73 +4223,57 @@ La jerarquía tipográfica diferencia títulos, datos y metadatos. Los filtros s
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+Los User Flows de Trakto Route representan los recorridos que realizan los usuarios dentro de la aplicación móvil para completar las principales funcionalidades del sistema. Cada diagrama muestra las acciones, decisiones, pantallas y rutas alternativas, manteniendo relación con los wireflows y mock-ups definidos previamente.
 
-Los User Flows utilizan los mock-ups y mantienen los mismos objetivos y recorridos de los wireflows. Cada diagrama incluye las acciones, condiciones y pantallas que representan la ruta esperada y sus alternativas.
+**UF01 — Programar un viaje**
 
-**UF01 — Iniciar sesión**
+**User goal:** Registrar y programar un viaje con la información necesaria para su ejecución.
 
-**User goal:** Acceder a la aplicación con una cuenta autorizada.
+**User Persona:** Carlos Mendoza, supervisor de flota.
 
-**User Persona:** Carlos Mendoza y Andrea Salazar.
+**User Stories:** US17, US18, US27 y US28.
 
-La ruta esperada conduce de credenciales válidas a Viajes. Las alternativas muestran campos incompletos, credenciales incorrectas o un error de conexión, permitiendo corregir o reintentar.
+El flujo permite al supervisor crear un viaje, ingresar las direcciones de origen y destino, visualizar las ubicaciones en el mapa y consultar la ruta estimada mediante la integración con Google Maps Platform. Finalmente, confirma la información para registrar el viaje. También contempla alternativas ante datos incompletos, direcciones no encontradas o errores durante el cálculo de la ruta.
 
-![Trakto Route - User Flow de inicio de sesión](assets/images/chapter3/app-user-flow-login.png)
+![Trakto Route - User Flow de programación de viaje](assets/images/chapter3/app-user-flow-schedule-trip.png)
 
-**UF02 — Buscar y filtrar viajes**
+**UF02 — Iniciar un viaje**
 
-**User goal:** Encontrar un viaje autorizado mediante búsqueda y filtros.
+**User goal:** Iniciar la ejecución de un viaje previamente programado.
 
-**User Persona:** Carlos Mendoza y Andrea Salazar.
+**User Persona:** Carlos Mendoza, supervisor de flota.
 
-La ruta esperada muestra las tarjetas que coinciden con los criterios. Las alternativas contemplan ausencia de coincidencias y error de carga, con acciones para limpiar la búsqueda o reintentar.
+**User Story:** US19 — Actualizar estado del viaje.
 
-![Trakto Route - User Flow de búsqueda de viajes](assets/images/chapter3/app-user-flow-trips.png)
+El flujo comienza con la selección de un viaje programado. El supervisor consulta sus detalles y ejecuta la acción de inicio, permitiendo que el sistema actualice su estado a "En progreso" y habilite el seguimiento. Se consideran alternativas cuando el viaje no cumple las condiciones necesarias o cuando ocurre un error durante la operación.
 
-**UF03 — Buscar y filtrar vehículos**
+![Trakto Route - User Flow de inicio de viaje](assets/images/chapter3/app-user-flow-start-trip.png)
 
-**User goal:** Encontrar un vehículo por placa y estado.
+**UF03 — Consultar el seguimiento de un viaje**
 
-**User Persona:** Carlos Mendoza.
+**User goal:** Consultar el recorrido, las ubicaciones registradas y las paradas de un viaje en ejecución.
 
-La ruta esperada presenta los vehículos coincidentes. Si no existen resultados, el usuario puede cambiar los criterios; ante un error de carga, puede reintentar.
+**User Persona:** Andrea Salazar, cliente de transporte.
 
-![Trakto Route - User Flow de búsqueda de vehículos](assets/images/chapter3/app-user-flow-vehicles.png)
+**User Stories:** US40, US08 y US41.
 
-**UF04 — Buscar y filtrar conductores**
+El flujo permite seleccionar un viaje autorizado y acceder a su seguimiento mediante un mapa interactivo. Se visualizan la última ubicación reportada, el recorrido y las paradas detectadas durante el trayecto. Como alternativas, se contemplan la ausencia de reportes, viajes sin paradas registradas y errores de conexión, ofreciendo opciones para actualizar o reintentar la consulta.
 
-**User goal:** Localizar un conductor según nombre, licencia o disponibilidad.
+![Trakto Route - User Flow de seguimiento de viaje](assets/images/chapter3/app-user-flow-trip-tracking.png)
 
-**User Persona:** Carlos Mendoza.
+**UF04 — Completar o cancelar un viaje**
 
-La ruta esperada muestra los conductores coincidentes. Las alternativas permiten limpiar filtros cuando no hay resultados o reintentar si la consulta falla.
+**User goal:** Completar un viaje ejecutado o cancelar su realización cuando corresponda.
 
-![Trakto Route - User Flow de búsqueda de conductores](assets/images/chapter3/app-user-flow-drivers.png)
+**User Persona:** Carlos Mendoza, supervisor de flota.
 
-**UF05 — Consultar el perfil**
+**User Story:** US22 — Finalizar viaje.
 
-**User goal:** Visualizar los datos de la cuenta.
+El flujo permite al supervisor seleccionar un viaje y ejecutar su finalización, actualizando el estado a "Completado" y concluyendo el seguimiento. También contempla la cancelación como recorrido alternativo, previa confirmación del usuario. Se consideran situaciones como estados no válidos, cancelación de la acción y errores durante la actualización del viaje.
 
-**User Persona:** Carlos Mendoza y Andrea Salazar.
+![Trakto Route - User Flow de finalización o cancelación de viaje](assets/images/chapter3/app-user-flow-complete-cancel-trip.png)
 
-La ruta esperada muestra el perfil. Si la información no puede cargarse, se presenta un mensaje y la opción de reintentar.
-
-![Trakto Route - User Flow de consulta del perfil](assets/images/chapter3/app-user-flow-profile.png)
-
-**UF06 — Cerrar sesión**
-
-**User goal:** Salir de la cuenta de forma explícita.
-
-**User Persona:** Carlos Mendoza y Andrea Salazar.
-
-La ruta esperada conduce de Perfil a Iniciar sesión. Cuando la acción requiere confirmación, el flujo incluye la alternativa de cancelar y permanecer en Perfil.
-
-![Trakto Route - User Flow de cierre de sesión](assets/images/chapter3/app-user-flow-logout.png)
-
-
-
-**User Flow en Lucidchart:** [Ver diagramas de Trakto Route](https://lucid.app/lucidchart/8cef2211-8ff9-46c5-b351-2ab7bf62c41e/edit?viewport_loc=-3616%2C2943%2C3288%2C1921%2C0_0&invitationId=inv_0b4dc3ef-dfc5-42b0-9590-027918e81afb)
-
+**User Flow en Lucidchart:** [Ver diagramas de Trakto Route](https://lucid.app/lucidchart/16c216a1-8a57-45b4-b935-3eebdfa8efca/edit?viewport_loc=-62%2C1594%2C3840%2C1730%2C0_0&invitationId=inv_61427efe-04a5-4da6-99c4-10828bc7d992)
 
 <div style="page-break-after: always;"></div>
 
