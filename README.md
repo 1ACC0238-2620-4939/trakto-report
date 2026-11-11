@@ -4883,11 +4883,10 @@ Esta primera versión del video permite comunicar el propósito de Trakto Route,
 
 **Video About the Product – Versión 1**
 
-[Ver Video About the Product V1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQC4YI6_nrluTJKaS6RV-7k8AbczxwXCDMEVu0t8hJeSHdY?e=dWYiLs)
+**Ver Video About the Product V1 :**[Ver Video About the Product V1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQC4YI6_nrluTJKaS6RV-7k8AbczxwXCDMEVu0t8hJeSHdY?e=dWYiLs)
 
 ![Video About the Product - Versión 1](./assets/images/shared/video-about-product-v1.png)
 
-**Figura.** Presentación de la primera versión del video About the Product de Trakto Route.
 
 <div style="page-break-after: always;"></div>
 
@@ -4903,11 +4902,10 @@ El video constituye una evidencia de presentación del equipo y permite contextu
 
 **Video About the Team**
 
-[Ver Video About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDFGSEugPxDTL6p9GAAyIX-Acpb44mk48URrKW7jrlz1w8?e=gnRMmD)
+**Ver Video About the Team :**[Ver Video About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDFGSEugPxDTL6p9GAAyIX-Acpb44mk48URrKW7jrlz1w8?e=gnRMmD)
 
 ![Video About the Team](./assets/images/shared/video-about-team.png)
 
-**Figura.** Presentación de los integrantes del equipo Trakto en el video About the Team.
 
 <div style="page-break-after: always;"></div>
 
