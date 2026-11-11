@@ -430,55 +430,64 @@ Las assumptions se expresan como creencias que deberán validarse mediante entre
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Las siguientes hipótesis relacionan las funcionalidades de Trakto Route con resultados observables para los supervisores de transporte y sus clientes. Cada hipótesis establece un indicador cuantitativo y la forma de verificarlo.
+Las hipótesis de Trakto Route establecen resultados esperados para la gestión y el seguimiento de viajes de carga. Cada hipótesis define una meta cuantitativa, la población evaluada y el método de medición.
 
 ##### Hypothesis Statement 1 – Gestión centralizada
 
-**We believe we will achieve** que al menos el **70 % de los supervisores activos** utilice las funciones de gestión o consulta de viajes durante los primeros **seis meses** de operación.  
+**We believe we will achieve** que al menos el **70 % de los supervisores activos** utilice una función de gestión o consulta de viajes durante los **primeros seis meses de operación**.  
 **If** los supervisores de empresas de transporte de carga  
 **Attain** la capacidad de gestionar y consultar sus operaciones desde un único sistema  
-**With** la gestión centralizada de viajes, rutas, vehículos y conductores.
+**With** las funciones de gestión de viajes, rutas, vehículos y conductores.
 
-**Medición.** Se dividirá el número de supervisores que realicen al menos una acción de gestión o consulta de viajes entre el total de supervisores que hayan iniciado sesión durante el periodo.
+**Indicador.** Porcentaje de supervisores activos que realizan al menos una acción de gestión o consulta de viajes.
+
+**Medición.** Se dividirá el número de supervisores distintos que realizaron al menos una de esas acciones entre el total de supervisores distintos que iniciaron sesión en el mismo periodo. El resultado se multiplicará por 100.
 
 ##### Hypothesis Statement 2 – Eventos e incidencias
 
-**We believe we will achieve** que al menos **4 de cada 5 supervisores** puedan identificar la hora y el motivo de una parada registrada **en un máximo de dos minutos y sin ayuda**.  
+**We believe we will achieve** que al menos **4 de 5 supervisores** identifiquen correctamente la **hora de inicio y el motivo** de una parada registrada **en un máximo de dos minutos y sin ayuda**.  
 **If** los supervisores de transporte  
-**Attain** la capacidad de reconstruir lo ocurrido durante un viaje  
-**With** la consulta de las paradas y sus motivos desde el detalle del viaje.
+**Attain** la capacidad de identificar qué ocurrió durante un viaje  
+**With** la consulta de las paradas registradas desde el detalle del viaje.
 
-**Medición.** En una sesión de validación, se pedirá a cada supervisor que localice una parada específica e indique correctamente su hora de inicio y motivo. Se registrará si completó la tarea dentro del tiempo establecido.
+**Indicador.** Número de supervisores que identifican correctamente ambos datos dentro del tiempo establecido.
+
+**Medición.** En una sesión de validación, se pedirá a cinco supervisores que localicen una parada específica. El tiempo se medirá desde que se les da la consigna hasta que indiquen la hora de inicio y el motivo. El caso contará como exitoso si ambos datos son correctos y el participante completa la tarea en 120 segundos o menos sin ayuda.
 
 ##### Hypothesis Statement 3 – Seguimiento del cliente
 
-**We believe we will achieve** que al menos el **60 % de los clientes activos con un envío en curso** consulte por su cuenta el estado o progreso de un envío durante los primeros **ocho meses** de operación.  
-**If** los clientes que requieren servicios de transporte de carga  
-**Attain** la capacidad de conocer el estado de su envío sin depender de llamadas o mensajes al transportista  
-**With** la consulta del estado, progreso y eventos relevantes del viaje asociado a su envío.
+**We believe we will achieve** que al menos el **60 % de los clientes activos con un envío en curso** consulte por su cuenta el estado o progreso de al menos uno de sus envíos durante los **primeros ocho meses de operación**.  
+**If** los clientes de servicios de transporte de carga  
+**Attain** la capacidad de consultar directamente el avance de sus envíos  
+**With** la vista de seguimiento del viaje asociado a cada envío.
 
-**Medición.** Se dividirá el número de clientes que abran la pantalla de seguimiento de al menos uno de sus envíos en curso entre el total de clientes que hayan iniciado sesión y tenido un envío en curso durante el periodo.
+**Indicador.** Porcentaje de clientes activos con un envío en curso que realizan al menos una consulta de seguimiento.
+
+**Medición.** Se dividirá el número de clientes distintos que consultaron el seguimiento de un envío propio mientras estaba en curso entre el total de clientes distintos que iniciaron sesión y tuvieron al menos un envío en curso durante el mismo periodo. El resultado se multiplicará por 100.
 
 ##### Hypothesis Statement 4 – Historial operativo
 
-**We believe we will achieve** que al menos **4 de cada 5 participantes de cada segmento** encuentren un viaje finalizado y consulten su detalle **en un máximo de dos minutos y sin ayuda**.  
+**We believe we will achieve** que al menos **4 de 5 participantes de cada segmento** encuentren un viaje finalizado y consulten su detalle **en un máximo de dos minutos y sin ayuda**.  
 **If** los supervisores de transporte y los clientes autorizados  
 **Attain** la capacidad de recuperar información de operaciones anteriores  
-**With** un historial centralizado de los viajes que cada usuario tiene permiso para consultar.
+**With** el historial de viajes que cada usuario tiene permiso para consultar.
 
-**Medición.** En una sesión de validación, se pedirá a cada participante que encuentre un viaje finalizado a partir de un dato de referencia y confirme su estado. Se registrará el resultado por separado para supervisores y clientes.
+**Indicador.** Número de participantes que localizan el viaje correcto, abren su detalle y confirman su estado dentro del tiempo establecido.
+
+**Medición.** Se evaluará a cinco supervisores y cinco clientes autorizados. Cada participante recibirá un dato de referencia para localizar un viaje finalizado. Se contará como exitoso si abre el detalle correcto y confirma su estado en 120 segundos o menos sin ayuda. El resultado se calculará por separado para cada segmento.
 
 ##### Hypothesis Statement 5 – Acceso por roles
 
 **We believe we will achieve** que el sistema permita el **100 % de las operaciones autorizadas** y bloquee el **100 % de las operaciones no autorizadas** contempladas en la matriz de pruebas de acceso.  
 **If** los supervisores y clientes registrados  
-**Attain** acceso a la información y las acciones que les corresponden  
+**Attain** acceso a las funciones y a la información que corresponden a sus permisos  
 **With** la autenticación y la autorización según el rol y los permisos sobre cada viaje.
 
-**Medición.** Se ejecutarán pruebas con cuentas de supervisor y cliente. Se comprobará, por ejemplo, que un cliente pueda consultar su propio envío y que el sistema rechace tanto la consulta de envíos ajenos como la modificación de viajes.
+**Indicadores.** Porcentaje de casos autorizados permitidos y porcentaje de casos no autorizados bloqueados.
+
+**Medición.** Se ejecutarán los casos de la matriz con cuentas de supervisor y cliente. Para cada grupo se dividirá el número de casos con el resultado esperado entre el total de casos ejecutados de ese grupo y se multiplicará por 100. Por ejemplo, un cliente debe poder consultar su propio envío y recibir una denegación si intenta consultar un envío ajeno o modificar un viaje.
 
 <div style="page-break-after: always;"></div>
-
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -4726,7 +4735,7 @@ Esta sección reúne las evidencias visuales de la aplicación Android, la plani
 ![User Flow Diagrams actualizados](assets/images/chapter4/sprint-2-user-flows.png)
 
 **Prototipo actualizado**
-[Prototipo actualizado](assets/images/chapter4/prototipo).
+[Prototipo actualizado](https://lucid.app/lucidchart/16c216a1-8a57-45b4-b935-3eebdfa8efca/edit?viewport_loc=691%2C-1%2C2407%2C1282%2C0_0&invitationId=inv_61427efe-04a5-4da6-99c4-10828bc7d992).
 
 
 <div style="page-break-after: always;"></div>
@@ -4747,7 +4756,7 @@ Los servicios REST de Trakto Route se documentan mediante OpenAPI y se consultan
 | Seguimiento — Consultar paradas | GET | `/api/v1/trackings/trips/{tripId}/stops`. Identificador del viaje en la ruta. | Lista de paradas registradas durante el viaje. |
 | Rutas — Calcular recorrido | GET | `/api/v1/routes`. Parámetros `originLatitude`, `originLongitude`, `destinationLatitude` y `destinationLongitude`. | Distancia, duración estimada, polilínea codificada y fecha de cálculo. |
 
-**Swagger UI de Trakto Route** : [Swagger UI de Trakto Route](https://github.com/1ACC0238-2620-4939/backend).
+**Swagger UI de Trakto Route** : [Swagger UI de Trakto Route](https://backend-production-8735.up.railway.app/swagger-ui/index.html).
 
 ![Trakto Route - Documentación OpenAPI de los servicios](assets/images/chapter4/sprint-2-openapi.png)
 
