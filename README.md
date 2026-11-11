@@ -64,7 +64,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
 | AV1 | 20/09/2026 | Fecha | Creación del informe. Inclusión de la presentación de la startup y del producto, Lean UX, análisis de competidores, entrevistas, Needfinding y Requirements Specification hasta Product Backlog. |
-
+| AV2 | 10/11/2026 | Equipo Trakto | Actualización de artefactos previos, documentación del Sprint 2, evidencias de implementación y pruebas, validación inicial de la aplicación y preparación de videos y despliegue requeridos para AV2. |
 
 <h2 align="center">Project Report Collaboration Insights</h2>
 
@@ -72,11 +72,18 @@
 
 **AV1.** Para el primer avance, el equipo trabajó en la definición de la startup **Trakto** y de su producto **Trakto Route**, el desarrollo del proceso Lean UX, el análisis competitivo, las entrevistas, los artefactos de Needfinding y la especificación inicial de requisitos. Las actividades fueron distribuidas entre los integrantes y consolidadas mediante herramientas colaborativas y control de versiones.
 
+
 <div style="page-break-after: always;"></div>
 
 ![Project Report Collaboration Insights TB1](./assets/images/shared/report_tb1.png)
 
 **TB1.** En esta entrega, el equipo desarrolló los capítulos III y IV del reporte de **Trakto Route**, incluyendo las guías de estilo, arquitectura de información, wireframes, mock-ups, flujos y prototipos. Para el **Sprint 1**, se documentaron la configuración del entorno, el control de versiones, la planificación, las responsabilidades, el backlog y las evidencias disponibles de implementación, ejecución, documentación y despliegue. Se completó el Landing Page, se alcanzó aproximadamente un 70 % de avance del backend y se desarrolló la primera versión de la aplicación Android. También se estableció el diseño de las entrevistas de validación, quedando pendientes su ejecución, la evaluación heurística y las pruebas automatizadas. El reporte se consolidó mediante herramientas colaborativas y GitHub.
+
+<div style="page-break-after: always;"></div>
+
+![Project Report Collaboration Insights AV2](./assets/images/shared/report_av2.png)
+
+**AV2.** Durante el segundo Sprint, el equipo continuó el desarrollo de Trakto Route mediante el trabajo en los repositorios de Android, backend, Landing Page e informe. Se documentaron avances de integración de servicios REST, persistencia, planificación de rutas y experiencia de usuario. La colaboración se organizó mediante el tablero de tareas, reuniones de coordinación y control de versiones. La distribución efectiva de actividades y los resultados individuales deberán sustentarse con commits, tareas completadas y evidencias verificables.
 
 <div style="page-break-after: always;"></div>
 
@@ -262,6 +269,17 @@ En el siguiente cuadro se describen las acciones realizadas y los enunciados de 
 | | **Chirito Torres, Jose Raul** | Reforzó sus conocimientos de organización y presentación de información mediante aportes al reporte. | Reconoció la necesidad de actualizar sus conocimientos para comunicar mejor las decisiones del proyecto. |
 | | **Loa Rojas, Jean Franck** | Aplicó y fortaleció sus conocimientos de Kotlin y desarrollo Android al avanzar en la primera versión de la aplicación móvil. | Reconoció la importancia de continuar aprendiendo sobre interfaces móviles e integración con servicios REST. |
 | | **Conclusiones** | El equipo desarrolló la primera versión de Android, completó el Landing Page y los prototipos, y alcanzó aproximadamente un 70 % de avance del backend, documentando las decisiones y resultados de TB1. | El equipo reconoció la necesidad de continuar aprendiendo sobre integración, pruebas y validación con usuarios para completar y mejorar Trakto Route. |
+
+<div style="page-break-after: always;"></div>
+
+| Avance | Integrante | Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. |
+|---|---|---|---|
+| **AV2** | **Cesar Alejandro Linares Bernable** | Fortaleció sus conocimientos sobre planificación y seguimiento de proyectos de software mediante la organización del Sprint 2, la coordinación de actividades del equipo y la actualización de la documentación del informe. Asimismo, profundizó en el uso de herramientas colaborativas como Trello, Discord y GitHub para organizar los entregables y registrar los avances del proyecto. | Reconoció la importancia de continuar desarrollando competencias en metodologías ágiles, gestión de tareas y control de versiones para mejorar la coordinación del equipo, identificar oportunamente las actividades pendientes y asegurar que los entregables cumplan los requisitos establecidos. |
+| | **Aguilar Aguayo Jeferson Renzo** | Amplió sus conocimientos sobre la configuración y ejecución de servicios backend mediante el uso de Java, Spring Boot, MySQL y Swagger. Participó en la revisión técnica del proyecto, comprendiendo la configuración de variables de entorno, la conexión a bases de datos relacionales, la gestión de permisos y la documentación de servicios REST. Asimismo, fortaleció sus competencias en la organización y actualización del informe correspondiente al Sprint 2. | Identificó la necesidad de continuar aprendiendo sobre integración de aplicaciones móviles con servicios REST, administración de bases de datos, pruebas funcionales y despliegue de aplicaciones. Reconoció que la verificación de errores, la consulta de documentación técnica y la validación progresiva de los componentes son fundamentales para desarrollar soluciones confiables. |
+| | **Fernandez Garfias, Alexander Piero** | Profundizó en el desarrollo de aplicaciones Android con Kotlin y Jetpack Compose, incorporando componentes de comunicación mediante Retrofit, persistencia local con Room y funcionalidades relacionadas con viajes, vehículos, conductores y seguimiento. En el backend, aplicó conocimientos de Java, Spring Boot, Domain-Driven Design, CQRS y arquitectura por capas, ampliando los servicios REST y desarrollando la integración de planificación de rutas mediante adaptadores. Asimismo, fortaleció sus conocimientos sobre pruebas automatizadas, arquitectura de software y actualización de artefactos UX/UI. | Reconoció la necesidad del aprendizaje continuo para resolver problemas de integración entre componentes móviles y servicios backend, mejorar la cobertura de pruebas y garantizar la mantenibilidad del sistema. Identificó la importancia de profundizar en seguridad, despliegue en entornos públicos, configuración de servicios externos y validación integral de funcionalidades antes de considerar completada una implementación. |
+| | **Chirito Torres, Jose Raul** | Fortaleció sus conocimientos sobre documentación técnica, organización de requisitos y seguimiento de actividades durante el Sprint 2. Participó en las tareas de elaboración y revisión del informe, profundizando en la relación entre las User Stories, los criterios de aceptación, las evidencias de implementación y los entregables requeridos para la revisión del producto. | Reconoció la importancia de continuar aprendiendo sobre metodologías ágiles, trazabilidad de requisitos, pruebas de software y herramientas de colaboración. Identificó que una documentación técnica consistente debe corresponder con las funcionalidades implementadas y sus respectivas evidencias de funcionamiento. |
+| | **Loa Rojas, Jean Franck** | Continuó fortaleciendo sus conocimientos de Kotlin y desarrollo de aplicaciones Android mediante su participación en las actividades relacionadas con la evolución de la aplicación móvil durante el Sprint 2. Amplió su comprensión sobre la organización de interfaces, navegación entre pantallas, consumo de servicios REST y relación entre las funcionalidades móviles y los procesos gestionados por el backend. | Reconoció la importancia de profundizar en arquitectura de aplicaciones Android, integración con API REST, persistencia local y pruebas de funcionamiento. Asimismo, identificó la necesidad de mantener un aprendizaje constante para resolver dificultades de compatibilidad, conectividad y comunicación entre los componentes del sistema. |
+| | **Conclusiones** | Durante AV2, el equipo amplió sus conocimientos en desarrollo móvil con Kotlin y Jetpack Compose, implementación de servicios REST con Spring Boot, persistencia con MySQL, integración de componentes mediante DDD y aplicación de pruebas automatizadas. Se avanzó en la evolución funcional de Trakto Route y se comprobó el funcionamiento local del backend, su conexión con MySQL y la disponibilidad de su documentación mediante Swagger. Estas actividades permitieron relacionar conocimientos teóricos con problemas técnicos reales del proyecto. | El equipo reconoció que el aprendizaje continuo y autónomo es indispensable para integrar correctamente los componentes de una solución de software. Asimismo, identificó la necesidad de fortalecer sus competencias en pruebas de integración, seguridad, servicios geográficos, validación con usuarios y despliegue público, a fin de completar las funcionalidades pendientes y presentar evidencias verificables del funcionamiento de Trakto Route. |
 
 <div style="page-break-after: always;"></div>
 
@@ -4575,9 +4593,7 @@ El trabajo se centró en la construcción de las interfaces Android, la navegaci
 
 
 ## 4.2.2. Sprint 2
-
-
-Durante el Sprint 2 se conectó la aplicación con el backend y se sincronizó la información. Se incorporaron mapas y servicios geográficos, se mejoró el diseño de la Landing Page y se actualizaron los User Flow Diagrams de las historias core, el prototipo y las hipótesis Lean UX con indicadores cuantitativos.
+Durante el Sprint 2 de Trakto Route se amplió la implementación de la aplicación Android mediante componentes de consumo de servicios REST, repositorios de datos, persistencia local y pantallas relacionadas con viajes, conductores, vehículos y seguimiento. En el backend se incorporaron componentes para la planificación de rutas y la comunicación entre los contextos del dominio. Asimismo, se actualizaron artefactos de experiencia de usuario y documentación del proyecto. Estos avances corresponden a funcionalidades implementadas en el código; la integración extremo a extremo entre Android, Spring Boot y MySQL, así como la visualización de mapas en Android, requieren evidencias de ejecución independientes antes de declararse completamente validadas.
 
 <div style="page-break-after: always;"></div>
 
@@ -4601,6 +4617,10 @@ El equipo organizó el trabajo para integrar la aplicación con los servicios y 
 | Sprint Velocity | Capacidad aceptada por el equipo por confirmar. La suma seleccionada no constituye velocidad completada. |
 | Inicio y fin del sprint | 2026-10-15  / 2026-11-10 |
 | Sprint Review Meeting | 2026-11-10, 3:00 p. m., hora de Lima, mediante Discord |
+
+**Conciliación de la planificación del Sprint 2.** 
+
+El Product Backlog de la sección 2.4.3 asigna inicialmente 17 User Stories y 49 Story Points al Sprint 2, mientras que la tabla de planificación de esta sección contiene una selección de 24 User Stories y 78 Story Points, incluyendo historias asignadas originalmente al Sprint 1. El equipo deberá confirmar si esta diferencia se debe a una replanificación y actualizar de manera consistente el Product Backlog, el Sprint Backlog y el tablero de Trello. La cantidad de puntos seleccionados representa alcance planificado, no la velocidad efectivamente completada. 
 
 <div style="page-break-after: always;"></div>
 
@@ -4627,7 +4647,7 @@ El backlog descompone las historias seleccionadas en tareas verificables. Las ho
 **Tablero público del Sprint 2** :[Tablero público del Sprint 2](https://trello.com/invite/b/6a9f35b637f25ac414075cf7/ATTIf84a9d213de599cd378224b9c2fa3fe4F4197A6F/mi-tablero-de-trello)
 
 
-La aplicación está conectada y sincronizada con el backend. Al cierre del Sprint 2 queda pendiente la integración de Google Maps SDK y la visualización de rutas dentro de la aplicación, registrada en S2-T13 para continuar en el Sprint 3.
+La aplicación Android contiene componentes de comunicación con servicios REST y almacenamiento local. No obstante, las capturas y la existencia de dichos componentes no son suficientes para acreditar por sí solas una sincronización extremo a extremo con la versión AV2 del backend. Según la planificación documentada, la integración de Google Maps SDK y la visualización de rutas dentro de Android permanecen pendientes en la tarea S2-T13. Cada tarea del Sprint Backlog debe vincularse con una User Story, un responsable, su estado y la evidencia del criterio de aceptación correspondiente.
 
 
 <div style="page-break-after: always;"></div>
@@ -4668,7 +4688,7 @@ La siguiente tabla presenta los commits identificados para estos avances.
 
 ##### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
-Se implementaron siete pruebas automatizadas para verificar las reglas del dominio, la persistencia local y el intercambio de datos con la API.
+El reporte identifica siete casos de prueba automatizados en la aplicación Android: cinco unitarios y dos instrumentados, orientados a reglas del dominio, almacenamiento local e intercambio de datos HTTP. Para acreditar su resultado en AV2 se deben registrar el comando de ejecución, la fecha, el dispositivo o emulador utilizado, el número de pruebas aprobadas y fallidas y las capturas correspondientes.
 
 | Tipo | Cantidad | Alcance |
 |---|---:|---|
@@ -4687,7 +4707,7 @@ Se implementaron siete pruebas automatizadas para verificar las reglas del domin
 
 ##### 4.2.2.6. Execution Evidence for Sprint Review
 
-La ejecución del Sprint 2 comprende la aplicación conectada al backend, la información sincronizada, la visualización de mapas y rutas y la Landing Page actualizada.
+Esta sección reúne las evidencias visuales de la aplicación Android, la planificación de rutas, el Landing Page, los User Flow Diagrams y el prototipo correspondientes al Sprint 2. Las capturas deben interpretarse de acuerdo con su origen: prototipo, ejecución local, resultado de una API o ejecución de Android. La validación de la comunicación real entre Android y el backend requiere una prueba reproducible con ambos componentes activos; asimismo, una imagen de ruta no acredita por sí sola la integración de Google Maps SDK dentro de Android.
 
 **Aplicación conectada al backend**
 
@@ -4735,7 +4755,7 @@ Los servicios REST de Trakto Route se documentan mediante OpenAPI y se consultan
 
 ##### 4.2.2.8. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 2 se generó el APK de la aplicación Android y se ejecutó en un emulador para verificar su funcionamiento y comunicación con el backend en el entorno de desarrollo.
+Durante el Sprint 2 se avanzó en la ejecución de la aplicación Android en un emulador y en la configuración del backend con Spring Boot, MySQL y documentación OpenAPI/Swagger. Se comprobó el arranque local del servidor y su acceso a MySQL. Sin embargo, esta verificación local no equivale al despliegue público exigido para AV2.
 
 El despliegue de la solución queda pendiente para una siguiente iteración, cuando se complete el producto.
 
