@@ -4731,9 +4731,9 @@ El reporte identifica siete casos de prueba automatizados en la aplicación Andr
 
 ![Trakto Route - Resultados de pruebas unitarias](assets/images/chapter4/sprint-2-unit-tests.png)
 
-**Pruebas instrumentadas**
-
 <div style="page-break-after: always;"></div>
+
+**Pruebas instrumentadas**
 
 ![Trakto Route - Resultados de pruebas instrumentadas](assets/images/chapter4/sprint-2-instrumented-tests.png)
 
@@ -4807,6 +4807,8 @@ El despliegue de la solución queda pendiente para una siguiente iteración, cua
 | Aplicación Android | APK generado y aplicación ejecutada en un emulador. |
 | Backend y base de datos | Utilizados en el entorno de desarrollo para la integración con la aplicación. |
 | Landing Page | Diseño actualizado |
+
+<div style="page-break-after: always;"></div>
 
 **Ejecución en el emulador Android**
 
@@ -4942,6 +4944,7 @@ JetBrains. (s. f.). *Kotlin coding conventions*. https://kotlinlang.org/docs/cod
 
 *Semantic Versioning 2.0.0*. (s. f.). https://semver.org/
 
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
@@ -4965,6 +4968,8 @@ JetBrains. (s. f.). *Kotlin coding conventions*. https://kotlinlang.org/docs/cod
 | MySQL | Persistencia central de los datos del sistema. | [MySQL](https://www.mysql.com/) |
 | Railway | Despliegue del Landing Page y backend. | [Railway](https://railway.com/) |
 | Microsoft Stream / OneDrive | Alojamiento y consulta de videos de entrevistas y demostraciones. | [Demostración del prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDz1xsdKdncT7IZwYQYkurNAcopYM6Z85fVXp6svpAwkpw?e=qOW1e6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+<div style="page-break-after: always;"></div>
 
 **Referencias de convenciones utilizadas**
 
