@@ -4676,7 +4676,7 @@ El backlog descompone las historias seleccionadas en tareas verificables. Las ho
 
 ![Trakto Route - Sprint Backlog 2](assets/images/chapter4/sprint-2-trello.png)
 
-**Tablero público del Sprint 2** :[Tablero público del Sprint 2](https://trello.com/invite/b/6a9f35b637f25ac414075cf7/ATTIf84a9d213de599cd378224b9c2fa3fe4F4197A6F/mi-tablero-de-trello)
+**Tablero público del Sprint 2 :**[Tablero público del Sprint 2](https://trello.com/invite/b/6a9f35b637f25ac414075cf7/ATTIf84a9d213de599cd378224b9c2fa3fe4F4197A6F/mi-tablero-de-trello)
 
 
 La aplicación Android contiene componentes de comunicación con servicios REST y almacenamiento local. No obstante, las capturas y la existencia de dichos componentes no son suficientes para acreditar por sí solas una sincronización extremo a extremo con la versión AV2 del backend. Según la planificación documentada, la integración de Google Maps SDK y la visualización de rutas dentro de Android permanecen pendientes en la tarea S2-T13. Cada tarea del Sprint Backlog debe vincularse con una User Story, un responsable, su estado y la evidencia del criterio de aceptación correspondiente.
@@ -4733,6 +4733,8 @@ El reporte identifica siete casos de prueba automatizados en la aplicación Andr
 
 **Pruebas instrumentadas**
 
+<div style="page-break-after: always;"></div>
+
 ![Trakto Route - Resultados de pruebas instrumentadas](assets/images/chapter4/sprint-2-instrumented-tests.png)
 
 <div style="page-break-after: always;"></div>
@@ -4745,13 +4747,20 @@ Esta sección reúne las evidencias visuales de la aplicación Android, la plani
 
 ![Trakto Route - Aplicación conectada al backend](assets/images/chapter4/app-backend.png)
 
+<div style="page-break-after: always;"></div>
+
 **Rutas**
 
 ![Trakto Route - Mapas y rutas](assets/images/chapter4/sprint-2-mapas-rutas.png)
 
+<div style="page-break-after: always;"></div>
+
+
 **Landing Page mejorada**
 
 ![Trakto Route - Landing Page mejorada](assets/images/chapter4/sprint-2-landing.png)
+
+<div style="page-break-after: always;"></div>
 
 **User Flow Diagrams actualizados**
 
@@ -4778,6 +4787,8 @@ Los servicios REST de Trakto Route se documentan mediante OpenAPI y se consultan
 | Seguimiento — Consultar última posición | GET | `/api/v1/trackings/trips/{tripId}/last-position`. Identificador del viaje en la ruta. | Último reporte de posición. Devuelve `204 No Content` si todavía no existe un reporte. |
 | Seguimiento — Consultar paradas | GET | `/api/v1/trackings/trips/{tripId}/stops`. Identificador del viaje en la ruta. | Lista de paradas registradas durante el viaje. |
 | Rutas — Calcular recorrido | GET | `/api/v1/routes`. Parámetros `originLatitude`, `originLongitude`, `destinationLatitude` y `destinationLongitude`. | Distancia, duración estimada, polilínea codificada y fecha de cálculo. |
+
+<div style="page-break-after: always;"></div>
 
 **Swagger UI de Trakto Route** : [Swagger UI de Trakto Route](https://backend-production-8735.up.railway.app/swagger-ui/index.html).
 
@@ -4812,9 +4823,13 @@ Durante el Sprint 2, el equipo coordinó las actividades mediante Discord y regi
 
 ![Trakto Route - Contribuciones en la aplicación](assets/images/chapter4/sprint-2-app-contributors.png)
 
+<div style="page-break-after: always;"></div>
+
 **Contribuciones en el backend**
 
 ![Trakto Route - Contribuciones en el backend](assets/images/chapter4/sprint-2-backend-contributors.png)
+
+<div style="page-break-after: always;"></div>
 
 **Contribuciones en la Landing Page**
 
@@ -4858,6 +4873,7 @@ Las sesiones se evaluarán mediante el formato establecido en el Anexo E. El an�
 
 Cada hallazgo registrará la tarea y pantalla afectadas, la evidencia, la heurística correspondiente, la severidad según el Anexo E y la mejora propuesta.
 
+<div style="page-break-after: always;"></div>
 
 ## Conclusiones y recomendaciones
 
