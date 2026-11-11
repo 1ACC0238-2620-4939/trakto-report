@@ -4450,9 +4450,8 @@ Las tareas visuales terminadas corresponden a pantallas con datos de ejemplo y n
 
 ![Trakto Route - Sprint Backlog 1](assets/images/chapter4/sprint-1-trello.png)
 
-**Sprint #** Sprint 1.
 
-[Tablero público del Sprint 1](https://trello.com/invite/b/6af3b1b69b1ee5d32605dbd9/ATTI2cedfc04eaca104443b1eb4d36240fb29D6CEE64/trakto-route-sprint-1).
+**Tablero público del Sprint 1 :**[Tablero público del Sprint 1](https://trello.com/invite/b/6af3b1b69b1ee5d32605dbd9/ATTI2cedfc04eaca104443b1eb4d36240fb29D6CEE64/trakto-route-sprint-1).
 
 Los estados Done corresponden a las tareas de construcción visual. Los servicios del backend continúan con avance parcial al cierre del Sprint.
 
@@ -4481,11 +4480,11 @@ La siguiente tabla presenta los commits relacionados con estos avances.
 | 1ACC0238-2620-4939/trakto-backend | main | 5238676 | feat(profile): add resources,controllers and assemblers for profile management | 2026-10-03 |
 | 1ACC0238-2620-4939/trakto-backend | main | d85705e | refactor(shared): update documentation for swagger | 2026-10-03 |
 
-[Aplicación Android](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/main).
+**Aplicación Android :**[Aplicación Android](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/main).
 
-[Backend](https://github.com/1ACC0238-2620-4939/trakto-backend).
+**Backend :**[Backend](https://github.com/1ACC0238-2620-4939/trakto-backend).
 
-[Landing Page](https://github.com/1ACC0238-2620-4939/trakto-website).
+**Landing Page :**[Landing Page](https://github.com/1ACC0238-2620-4939/trakto-website).
 
 <div style="page-break-after: always;"></div>
 
@@ -4511,8 +4510,6 @@ La aplicación utiliza datos de ejemplo para presentar las pantallas y su navega
 
 ![Trakto Route - Landing Page del Sprint 1](assets/images/chapter4/sprint-1-landing-execution.png)
 
-[Video de ejecución y navegación](https://PonerLink.COM/sprint-1-video).
-
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.7. Services Documentation Evidence for Sprint Review
@@ -4527,7 +4524,7 @@ Estos servicios se desarrollaron de forma independiente a la interfaz Android. S
 | Conductores — Consultar listado | GET | `/api/v1/drivers`. Sin cuerpo de solicitud. | Lista de conductores registrados. |
 | Vehículos — Consultar listado | GET | `/api/v1/vehicles`. Sin cuerpo de solicitud. | Lista de vehículos registrados. |
 
-[Swagger UI del backend](https://backend-production-8735.up.railway.app/swagger-ui/index.html).
+**Swagger UI del backend :** [Swagger UI del backend](https://backend-production-8735.up.railway.app/swagger-ui/index.html).
 
 ![Trakto Route - Documentación de servicios del Sprint 1](assets/images/chapter4/sprint-1-swagger.png)
 
@@ -4542,15 +4539,15 @@ La aplicación Android se ejecutó en un emulador desde Android Studio para pres
 | Componente | Estado al cierre del Sprint 1 | Enlace |
 |---|---|---|
 | Backend | Desplegado en Railway, con aproximadamente un 70 % de avance. Integración de APIs de Google pendiente. | [Backend](https://backend-production-8735.up.railway.app/swagger-ui/index.html) |
-| Aplicación Android | Interfaz y navegación ejecutadas en un emulador, con datos de ejemplo. Lógica e integración con el backend pendientes. | — |
+| Aplicación Android | Interfaz y navegación ejecutadas en un emulador, con datos de ejemplo. Lógica e integración con el backend pendientes. | **Emulador** |
 
 **Backend desplegados**
 
-![Trakto Route - Despliegue en Railway durante el Sprint 1](assets/images/chapter4/sprint-1-railway.png)
+![Trakto Route - Despliegue en Railway durante el Sprint 1](assets/images/chapter4/sprint-1-swagger.png)
 
 **Aplicación Android en el emulador**
 
-![Trakto Route - Interfaz Android en el emulador](assets/images/chapter4/sprint-1-emulator.png)
+![Trakto Route - Interfaz Android en el emulador](assets/images/chapter4/sprint-1-app-execution.png)
 
 <div style="page-break-after: always;"></div>
 
