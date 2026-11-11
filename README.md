@@ -241,9 +241,11 @@
             - [4.2.2.9. Team Collaboration Insights during Sprint](#4229-team-collaboration-insights-during-sprint)
     - [4.3. Validation Interviews](#43-validation-interviews)
         - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
-        - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
         - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video App Validation](#video-app-validation)
+- [Video About the Product](#video-about-the-product)
+- [Video About the Team](#video-about-the-team)
 - [Referencias bibliográficas](#referencias-bibliográficas)
 - [Anexos](#anexos)
     - [Anexo A. Herramientas utilizadas](#anexo-a-herramientas-utilizadas)
@@ -4883,10 +4885,10 @@ Esta primera versión del video permite comunicar el propósito de Trakto Route,
 
 **Video About the Product – Versión 1**
 
-**Ver Video About the Product V1 :**[Ver Video About the Product V1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQC4YI6_nrluTJKaS6RV-7k8AbczxwXCDMEVu0t8hJeSHdY?e=dWYiLs)
 
 ![Video About the Product - Versión 1](./assets/images/shared/video-about-product-v1.png)
 
+**Ver Video About the Product V1 :**[Ver Video About the Product V1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQC4YI6_nrluTJKaS6RV-7k8AbczxwXCDMEVu0t8hJeSHdY?e=dWYiLs)
 
 <div style="page-break-after: always;"></div>
 
@@ -4902,10 +4904,10 @@ El video constituye una evidencia de presentación del equipo y permite contextu
 
 **Video About the Team**
 
-**Ver Video About the Team :**[Ver Video About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDFGSEugPxDTL6p9GAAyIX-Acpb44mk48URrKW7jrlz1w8?e=gnRMmD)
 
 ![Video About the Team](./assets/images/shared/video-about-team.png)
 
+**Ver Video About the Team :**[Ver Video About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDFGSEugPxDTL6p9GAAyIX-Acpb44mk48URrKW7jrlz1w8?e=gnRMmD)
 
 <div style="page-break-after: always;"></div>
 
