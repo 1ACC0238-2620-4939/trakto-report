@@ -4400,13 +4400,15 @@ Esta sección documenta el avance del Landing Page, los RESTful Web Services y l
 
 #### 4.2.1. Sprint 1
 
-En el Sprint 1 se alcanzó aproximadamente un 70 % de avance del backend y se desarrolló la primera versión de la aplicación Android. Asimismo, se cuenta con los prototipos de interfaz y el Landing Page. Las funcionalidades pendientes de integración y comprobación continúan en desarrollo.
+Durante el Sprint 1 se desarrolló la interfaz inicial de la aplicación Android con Kotlin y Jetpack Compose. Se implementaron las pantallas principales, los componentes visuales y la navegación, utilizando datos de ejemplo y ejecutando la aplicación en un emulador.
+
+El backend alcanzó aproximadamente un 70 % de avance y se desplegó junto con la primera versión de la Landing Page. Quedaron pendientes la integración de las APIs de Google en el backend y la implementación de la lógica funcional y conexión con los servicios en la aplicación Android.
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.1. Sprint Planning 1
 
-El equipo organizó el trabajo inicial bajo el liderazgo de Cesar Alejandro Linares Bernable, priorizando los servicios del negocio y la primera versión de la experiencia móvil.
+El equipo organizó el trabajo inicial bajo el liderazgo de Cesar Alejandro Linares Bernable, priorizando la construcción de las interfaces Android, el desarrollo de los servicios iniciales del backend y la presentación del producto mediante la Landing Page.
 
 | Campo | Detalle |
 |---|---|
@@ -4416,151 +4418,174 @@ El equipo organizó el trabajo inicial bajo el liderazgo de Cesar Alejandro Lina
 | Location | Reunión virtual mediante Discord |
 | Prepared By | Cesar Alejandro Linares Bernable |
 | Attendees | Cesar Alejandro Linares Bernable / Jeferson Renzo Aguilar Aguayo / Alexander Piero Fernandez Garfias / Jose Raul Chirito Torres / Jean Franck Loa Rojas |
-| Sprint 1 Goal | Avanzar en la consulta de información de viajes y flota para facilitar el acceso del supervisor a sus operaciones. El cumplimiento se evaluará mediante la demostración de las vistas iniciales y los servicios disponibles, identificando las integraciones pendientes. |
-| User Stories relacionadas | US02, US03, US05, US07, US09 y US10 |
-| Technical Stories relacionadas | TS01 y TS02 |
-| Sprint 1 Velocity | 20 Story Points de capacidad estimada para el primer Sprint |
-| Sum of Story Points | 20 Story Points correspondientes a las historias seleccionadas |
-
+| Sprint 0 Review Summary | No aplica por tratarse del primer Sprint. |
+| Sprint 0 Retrospective Summary | No aplica por tratarse del primer Sprint. |
+| Sprint Goal | Presentar la experiencia visual inicial de Trakto Route y disponer de una primera base de servicios. El cumplimiento se verificará mediante la navegación por las pantallas de acceso, perfil, viajes y flota en el emulador, además de la disponibilidad del backend y la Landing Page desplegados. |
+| User Stories seleccionadas | US02, US03, US05, US07, US09 y US10, abordadas en su alcance visual. |
+| Technical Stories relacionadas | TS01 y TS02. |
+| Sum of Story Points | 14 Story Points correspondientes a las seis User Stories seleccionadas. |
+| Sprint Velocity | 20 Story Points de capacidad estimada para el primer Sprint. |
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.2. Aspect Leaders and Collaborators
 
-Cesar Alejandro Linares Bernable lideró el Sprint. La matriz LACX registra las responsabilidades específicas de cada integrante: **L** indica líder y **C**, colaborador.
+Cesar Alejandro Linares Bernable lideró la coordinación del Sprint. La matriz LACX registra las responsabilidades en backend, interfaz Android, prototipos y Landing Page. L indica líder y C, colaborador.
 
-| Team Member | GitHub Username | Backend | Aplicación Android | Prototipos y Landing Page |
+| Team Member | GitHub Username | Backend | Interfaz Android | Prototipos y Landing Page |
 |---|---|---|---|---|
-| Cesar Alejandro Linares Bernable | Cesar-Linares | — | — | C |
-| Jeferson Renzo Aguilar Aguayo | JeferSomBlan | — | — | — |
-| Alexander Piero Fernandez Garfias | Dostoyevsk1 | L | L | L |
-| Jose Raul Chirito Torres | JoseR044 | — | — | — |
-| Jean Franck Loa Rojas | JeanLoa | — | C | — |
+| Linares Bernable, Cesar Alejandro | Cesar-Linares | — | — | C |
+| Aguilar Aguayo, Jeferson Renzo | JeferSomBlan | — | — | — |
+| Fernandez Garfias, Alexander Piero | Dostoyevsk1 | L | L | L |
+| Chirito Torres, Jose Raul | JoseR044 | — | — | — |
+| Loa Rojas, Jean Franck | JeanLoa | — | C | — |
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.3. Sprint Backlog 1
 
-El backlog reúne las tareas relacionadas con los servicios de viajes y flota, las pantallas iniciales de Android y los entregables de diseño. El avance parcial del backend no implica que todas las historias estén completadas.
+El Sprint Backlog reúne las tareas de construcción de las interfaces Android y el desarrollo inicial de los servicios de viajes y flota.
 
-![Trakto Route - Sprint Backlog 1](assets/images/chapter2/product-backlog.png)
+Las tareas visuales terminadas corresponden a pantallas con datos de ejemplo y navegación. La finalización funcional de las historias requiere incorporar la lógica y la integración con el backend en las siguientes iteraciones.
 
+![Trakto Route - Sprint Backlog 1](assets/images/chapter4/sprint-1-trello.png)
 
-**Sprint #:** Sprint 1.
+**Sprint #** Sprint 1.
 
-| Story ID | Story Title | Task ID | Task Title | Description | Hours | Assigned To | Status |
-|---|---|---|---|---|---|---|---|
-| TS01 | Proporcionar servicios para la gestión de viajes | T01 | Desarrollar servicios de viajes | Implementar operaciones y consultas de viajes. | 12 | Alexander Fernandez | InProcess |
-| TS02 | Proporcionar servicios para la gestión de flota | T02 | Desarrollar servicios de flota | Implementar servicios de conductores y vehículos. | 12 | Alexander Fernandez | InProcess |
-| US02 | Iniciar sesión | T03 | Desarrollar pantalla de acceso | Implementar la vista inicial de inicio de sesión. | 4 | Alexander Fernandez / Jean Loa | InProcess |
-| US03 | Consultar perfil | T04 | Desarrollar vista de perfil | Presentar la información del usuario. | 4 | Alexander Fernandez / Jean Loa | InProcess |
-| US05 / US07 | Consultar viajes / Consultar estado del viaje | T05 | Desarrollar vista de viajes | Presentar los viajes y sus estados. | 6 | Alexander Fernandez / Jean Loa | InProcess |
-| US09 / US10 | Consultar conductor / Consultar vehículo | T06 | Desarrollar vistas de flota | Presentar información de conductores y vehículos. | 6 | Alexander Fernandez / Jean Loa | InProcess |
+[Tablero público del Sprint 1](https://PonerLink.COM/tablero-sprint-1).
 
+| User Story Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| TS01 | Proporcionar servicios para la gestión de viajes | S1-T01 | Desarrollar servicios iniciales de viajes | Implementar las operaciones y consultas iniciales del backend para la gestión de viajes. | 12 | Alexander Fernandez | InProcess |
+| TS02 | Proporcionar servicios para la gestión de flota | S1-T02 | Desarrollar servicios iniciales de flota | Implementar las operaciones y consultas iniciales de conductores y vehículos. | 12 | Alexander Fernandez | InProcess |
+| US02 | Iniciar sesión | S1-T03 | Construir la pantalla de acceso | Implementar los campos, botones y presentación visual del inicio de sesión. | 4 | Alexander Fernandez / Jean Loa | Done |
+| US03 | Consultar perfil | S1-T04 | Construir la pantalla de perfil | Presentar la estructura del perfil utilizando datos de ejemplo. | 4 | Alexander Fernandez / Jean Loa | Done |
+| US05 / US07 | Consultar viajes / Consultar estado del viaje | S1-T05 | Construir el listado de viajes | Mostrar tarjetas de viajes, etiquetas de estado y controles visuales con datos de ejemplo. | 6 | Alexander Fernandez / Jean Loa | Done |
+| US09 / US10 | Consultar información del conductor / Consultar información del vehículo | S1-T06 | Construir las vistas de flota | Presentar las interfaces de conductores y vehículos con datos de ejemplo. | 6 | Alexander Fernandez / Jean Loa | Done |
 
-Los estados utilizados son `Todo`, `InProcess`, `To-Review` y `Done`.
-
+Los estados Done corresponden a las tareas de construcción visual. Los servicios del backend continúan con avance parcial al cierre del Sprint.
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se alcanzó aproximadamente un 70 % de avance del backend, se desarrolló la primera versión de la aplicación Android y se completaron los prototipos y el Landing Page. Los commits relacionados se presentan a continuación.
+Se implementaron las pantallas iniciales y la navegación de la aplicación Android, se aplicó la paleta de marca y se incorporó el icono de Trakto Route. La aplicación se ejecutó en un emulador para presentar su estructura visual.
 
-| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+En paralelo, se avanzó en los servicios del backend y se desarrolló la primera versión de la Landing Page. Ambos componentes contaron con despliegue, mientras que la integración de las APIs de Google quedó pendiente.
+
+La siguiente tabla presenta los commits relacionados con estos avances.
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
 |---|---|---|---|---|
-| 1ACC0238-2620-4939/front | main | f261c1b | feat(ui): add core screens and bottom navigation | 2026-10-03 |
-| 1ACC0238-2620-4939/front | main | 85c1c05 | feat(fleet): add views for list driver and vehicles | 2026-10-03 |
-| 1ACC0238-2620-4939/front | main | 9e42c38 | feat(profile): add views for profile | 2026-10-03 |
-| 1ACC0238-2620-4939/front | main | 747bc3c | fix(ui): apply brand palette and correct app background | 2026-10-03 |
-| 1ACC0238-2620-4939/front | main | fe46c7a | feat(branding): add Trakto Route launcher icon | 2026-10-03 |
-| 1ACC0238-2620-4939/landing-page | main | 7c87668 | feat: add styles for Trakto Route landing page | 2026-10-02 |
-| 1ACC0238-2620-4939/landing-page | main | 86beed9 | feat: add image logo | 2026-10-02 |
-| 1ACC0238-2620-4939/landing-page | main | c2d28f9 | docs(landing): connect public project resources | 2026-10-03 |
-| 1ACC0238-2620-4939/landing-page | main | 5e72057 | docs(landing): add tb1 visual evidence | 2026-10-03 |
-| 1ACC0238-2620-4939/backend | main | 70f68aa | feat(fleet): add driver and vehicle command and query controllers | 2026-10-02 |
-| 1ACC0238-2620-4939/backend | main | bc5b6bc | feat(tracking): add aggregates,value objects, domain events and entities | 2026-10-03 |
-| 1ACC0238-2620-4939/backend | main | 494a74b | feat(tracking): add commands and queries services | 2026-10-03 |
-| 1ACC0238-2620-4939/backend | main | 9d27de5 | feat(profile): add domain, infrastructure and application for profile management | 2026-10-03 |
-| 1ACC0238-2620-4939/backend | main | 5238676 | feat(profile): add resources,controllers and assemblers for profile management | 2026-10-03 |
-| 1ACC0238-2620-4939/backend | main | d85705e | refactor(shared): update documentation for swagger | 2026-10-03 |
-| 1ACC0238-2620-4939/backend | main | e11a4ff | chore(deployment): make backend build reproducible | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-webapp | main | f261c1b | feat(ui): add core screens and bottom navigation | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-webapp | main | 85c1c05 | feat(fleet): add views for list driver and vehicles | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-webapp | main | 9e42c38 | feat(profile): add views for profile | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-webapp | main | 747bc3c | fix(ui): apply brand palette and correct app background | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-webapp | main | fe46c7a | feat(branding): add Trakto Route launcher icon | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-website | main | c2d28f9 | docs(landing): connect public project resources | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-website | main | 5e72057 | docs(landing): add tb1 visual evidence | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-backend | main | 70f6a8a | feat(fleet): add driver and vehicle command and query controllers | 2026-10-02 |
+| 1ACC0238-2620-4939/trakto-backend | main | bc5b6bc | feat(tracking): add aggregates,value objects, domain events and entities | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-backend | main | 494a74b | feat(tracking): add commands and queries services | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-backend | main | 5238676 | feat(profile): add resources,controllers and assemblers for profile management | 2026-10-03 |
+| 1ACC0238-2620-4939/trakto-backend | main | d85705e | refactor(shared): update documentation for swagger | 2026-10-03 |
+
+[Aplicación Android](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/main).
+
+[Backend](https://github.com/1ACC0238-2620-4939/trakto-backend).
+
+[Landing Page](https://github.com/1ACC0238-2620-4939/trakto-website).
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
-Durante el Sprint 1 no se implementaron pruebas automatizadas unitarias, de integración ni de aceptación. Su implementación queda pendiente para los siguientes Sprints, priorizando los servicios de viajes, conductores y vehículos.
+Durante el Sprint 1 no se implementaron ni ejecutaron pruebas automatizadas en la aplicación Android, debido a que esta versión comprendía únicamente las interfaces y la navegación con datos de ejemplo.
+
+La implementación de pruebas de la aplicación quedó prevista para las siguientes iteraciones, junto con la incorporación de la lógica funcional y la integración con el backend.
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.6. Execution Evidence for Sprint Review
 
-Las capturas muestran el Landing Page y las pantallas implementadas en la primera versión de Android.
+Las evidencias muestran la interfaz inicial de Android ejecutada en el emulador y la primera versión de la Landing Page publicada.
 
-**Landing Page:** presentación de la propuesta de valor y navegación entre secciones.
+La aplicación utiliza datos de ejemplo para presentar las pantallas y su navegación. El backend se encontraba desplegado de forma independiente, con aproximadamente un 70 % de avance.
 
-![Trakto Route - Landing Page Sprint 1](assets/images/chapter4/sprint-1-landing-execution.png)
+**Interfaz Android en el emulador**
 
-**Aplicación Android:** pantallas iniciales y navegación implementada.
+![Trakto Route - Interfaz Android del Sprint 1](assets/images/chapter4/sprint-1-app-execution.png)
 
-![Trakto Route - Aplicación Android Sprint 1](assets/images/chapter4/sprint-1-app-execution.png)
+**Landing Page publicada**
 
+![Trakto Route - Landing Page del Sprint 1](assets/images/chapter4/sprint-1-landing-execution.png)
+
+[Video de ejecución y navegación](https://PonerLink.COM/sprint-1-video).
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.7. Services Documentation Evidence for Sprint Review
 
-La documentación OpenAPI permite consultar y ejecutar los endpoints disponibles del backend. La tabla registra las acciones implementadas dentro del alcance del Sprint.
+El backend cuenta con documentación OpenAPI de los servicios iniciales de viajes y flota, consultable mediante Swagger UI.
 
-**Repositorio:** [Backend](https://github.com/1ACC0238-2620-4939/backend).
+Estos servicios se desarrollaron de forma independiente a la interfaz Android. Su consumo desde la aplicación quedó pendiente para una siguiente iteración.
 
+| Historia / servicio | Verbo HTTP | Endpoint y parámetros | Respuesta |
+|---|---|---|---|
+| US05 — Consultar viajes | GET | `/api/v1/trips`. Sin cuerpo de solicitud. | Lista de viajes registrados. Devuelve `[]` cuando no existen registros. |
+| Conductores — Consultar listado | GET | `/api/v1/drivers`. Sin cuerpo de solicitud. | Lista de conductores registrados. |
+| Vehículos — Consultar listado | GET | `/api/v1/vehicles`. Sin cuerpo de solicitud. | Lista de vehículos registrados. |
 
-| Acción | HTTP | Sintaxis de llamada | Parámetros / Body | Response: ejemplo y explicación |
-|---|---|---|---|---|
-| Consultar viajes | GET | `/api/v1/trips` | Sin body. | `200 OK`: arreglo JSON con los viajes registrados. `[]` cuando no existen registros. |
-| Consultar conductores | GET | `/api/v1/drivers` | Sin body. | `200 OK`: arreglo JSON con la información de los conductores. `[]` cuando no existen registros. |
-| Consultar vehículos | GET | `/api/v1/vehicles` | Sin body. | `200 OK`: arreglo JSON con la información de los vehículos. `[]` cuando no existen registros. |
+[Swagger UI del backend](https://PonerLink.COM/swagger-ui/index.html).
 
-La captura muestra una solicitud realizada con datos de ejemplo y la respuesta del servicio.
-
-![Trakto Route - Swagger Sprint 1](assets/images/chapter4/sprint-1-swagger.png)
-
+![Trakto Route - Documentación de servicios del Sprint 1](assets/images/chapter4/sprint-1-swagger.png)
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.8. Software Deployment Evidence for Sprint Review
 
-El Landing Page y el backend se despliegan mediante Railway. Las evidencias registran la configuración de los servicios y el resultado alcanzado durante el Sprint. Para Android se indica la disponibilidad del APK y su instalación.
+Durante el Sprint 1 se desplegaron el backend y la Landing Page en Railway. El backend alcanzó aproximadamente un 70 % de avance, con la integración de las APIs de Google pendiente para una siguiente iteración.
 
-| Producto | Configuración y resultado | Enlace |
+La aplicación Android se ejecutó en un emulador desde Android Studio para presentar las interfaces y la navegación con datos de ejemplo.
+
+| Componente | Estado al cierre del Sprint 1 | Enlace |
 |---|---|---|
-| Landing Page | Sitio estático desarrollado con HTML y CSS, desplegado en Railway desde su repositorio de GitHub. | [Sitio publicado](URL_LANDING) |
-| Backend | Servicios REST desarrollados con Java y Spring Boot, conectados a MySQL y desplegados en Railway. La conexión y las credenciales se configuran mediante variables de entorno. | [REST API](URL_BACKEND) |
-| Aplicación Android | Aplicación desarrollada con Kotlin y Jetpack Compose, compilada en Android Studio. [Indicar si se ejecutó en emulador o dispositivo y si se generó el APK]. | [APK de la entrega](URL_APK) |
+| Backend | Desplegado en Railway, con aproximadamente un 70 % de avance. Integración de APIs de Google pendiente. | [Backend](https://PonerLink.COM/backend) |
+| Landing Page | Primera versión desplegada y accesible desde el navegador. | [Landing Page](https://PonerLink.COM/landing-page) |
+| Aplicación Android | Interfaz y navegación ejecutadas en un emulador, con datos de ejemplo. Lógica e integración con el backend pendientes. | — |
 
-**Railway:** servicios configurados y estado del despliegue.
+**Backend y Landing Page desplegados**
 
-![Trakto Route - Railway Sprint 1](assets/images/chapter4/sprint-1-railway.png)
+![Trakto Route - Despliegue en Railway durante el Sprint 1](assets/images/chapter4/sprint-1-railway.png)
 
-**Android:** ejecución de la aplicación instalada en un dispositivo o emulador.
+**Aplicación Android en el emulador**
 
-![Trakto Route - Android Sprint 1](assets/images/chapter4/sprint-1-android-installation.png)
-
+![Trakto Route - Interfaz Android en el emulador](assets/images/chapter4/sprint-1-emulator.png)
 
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.1.9. Team Collaboration Insights during Sprint
 
-El equipo coordinó las actividades mediante Discord y utilizó GitHub para registrar los cambios. Durante el Sprint se avanzó en el backend y la primera versión de Android, y se completaron los prototipos y el Landing Page.
+Durante el Sprint 1, el equipo coordinó las actividades mediante Discord y registró los cambios de la aplicación, backend, Landing Page e informe en GitHub.
 
-Las capturas de GitHub muestran la distribución de contribuciones en cada producto.
+El trabajo se centró en la construcción de las interfaces Android, la navegación, los prototipos y el desarrollo inicial de los servicios del backend. También se preparó el despliegue del backend y de la Landing Page.
 
-![Trakto Route - Colaboración Backend Sprint 1](assets/images/chapter4/sprint-1-backend-contributors.png)
+**Contribuciones en la aplicación**
 
-![Trakto Route - Colaboración Android Sprint 1](assets/images/chapter4/sprint-1-android-contributors.png)
+![Trakto Route - Contribuciones en la aplicación](assets/images/chapter4/sprint-1-android-contributors.png)
 
-![Trakto Route - Colaboración Landing Page Sprint 1](assets/images/chapter4/sprint-1-landing-contributors.png)
+**Contribuciones en el backend**
+
+![Trakto Route - Contribuciones en el backend](assets/images/chapter4/sprint-1-backend-contributors.png)
+
+**Contribuciones en la Landing Page**
+
+![Trakto Route - Contribuciones en la Landing Page](assets/images/chapter4/sprint-1-landing-contributors.png)
+
+**Contribuciones en el informe**
+
+![Trakto Route - Contribuciones en el informe](assets/images/chapter4/sprint-1-report-contributors.png)
+
 
 <div style="page-break-after: always;"></div>
 
