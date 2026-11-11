@@ -4435,7 +4435,7 @@ Cesar Alejandro Linares Bernable lideró la coordinación del Sprint. La matriz 
 | Team Member | GitHub Username | Backend | Interfaz Android | Prototipos y Landing Page |
 |---|---|---|---|---|
 | Linares Bernable, Cesar Alejandro | Cesar-Linares | — | — | C |
-| Aguilar Aguayo, Jeferson Renzo | JeferSomBlan | — | — | — |
+| Aguilar Aguayo, Jeferson Renzo | JeferSomBlan | — | — | C |
 | Fernandez Garfias, Alexander Piero | Dostoyevsk1 | L | L | L |
 | Chirito Torres, Jose Raul | JoseR044 | — | — | — |
 | Loa Rojas, Jean Franck | JeanLoa | — | C | — |
@@ -4452,16 +4452,7 @@ Las tareas visuales terminadas corresponden a pantallas con datos de ejemplo y n
 
 **Sprint #** Sprint 1.
 
-[Tablero público del Sprint 1](https://PonerLink.COM/tablero-sprint-1).
-
-| User Story Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---|---:|---|---|
-| TS01 | Proporcionar servicios para la gestión de viajes | S1-T01 | Desarrollar servicios iniciales de viajes | Implementar las operaciones y consultas iniciales del backend para la gestión de viajes. | 12 | Alexander Fernandez | InProcess |
-| TS02 | Proporcionar servicios para la gestión de flota | S1-T02 | Desarrollar servicios iniciales de flota | Implementar las operaciones y consultas iniciales de conductores y vehículos. | 12 | Alexander Fernandez | InProcess |
-| US02 | Iniciar sesión | S1-T03 | Construir la pantalla de acceso | Implementar los campos, botones y presentación visual del inicio de sesión. | 4 | Alexander Fernandez / Jean Loa | Done |
-| US03 | Consultar perfil | S1-T04 | Construir la pantalla de perfil | Presentar la estructura del perfil utilizando datos de ejemplo. | 4 | Alexander Fernandez / Jean Loa | Done |
-| US05 / US07 | Consultar viajes / Consultar estado del viaje | S1-T05 | Construir el listado de viajes | Mostrar tarjetas de viajes, etiquetas de estado y controles visuales con datos de ejemplo. | 6 | Alexander Fernandez / Jean Loa | Done |
-| US09 / US10 | Consultar información del conductor / Consultar información del vehículo | S1-T06 | Construir las vistas de flota | Presentar las interfaces de conductores y vehículos con datos de ejemplo. | 6 | Alexander Fernandez / Jean Loa | Done |
+[Tablero público del Sprint 1](https://trello.com/invite/b/6af3b1b69b1ee5d32605dbd9/ATTI2cedfc04eaca104443b1eb4d36240fb29D6CEE64/trakto-route-sprint-1).
 
 Los estados Done corresponden a las tareas de construcción visual. Los servicios del backend continúan con avance parcial al cierre del Sprint.
 
@@ -4536,7 +4527,7 @@ Estos servicios se desarrollaron de forma independiente a la interfaz Android. S
 | Conductores — Consultar listado | GET | `/api/v1/drivers`. Sin cuerpo de solicitud. | Lista de conductores registrados. |
 | Vehículos — Consultar listado | GET | `/api/v1/vehicles`. Sin cuerpo de solicitud. | Lista de vehículos registrados. |
 
-[Swagger UI del backend](https://PonerLink.COM/swagger-ui/index.html).
+[Swagger UI del backend](https://backend-production-8735.up.railway.app/swagger-ui/index.html).
 
 ![Trakto Route - Documentación de servicios del Sprint 1](assets/images/chapter4/sprint-1-swagger.png)
 
@@ -4550,11 +4541,10 @@ La aplicación Android se ejecutó en un emulador desde Android Studio para pres
 
 | Componente | Estado al cierre del Sprint 1 | Enlace |
 |---|---|---|
-| Backend | Desplegado en Railway, con aproximadamente un 70 % de avance. Integración de APIs de Google pendiente. | [Backend](https://PonerLink.COM/backend) |
-| Landing Page | Primera versión desplegada y accesible desde el navegador. | [Landing Page](https://PonerLink.COM/landing-page) |
+| Backend | Desplegado en Railway, con aproximadamente un 70 % de avance. Integración de APIs de Google pendiente. | [Backend](https://backend-production-8735.up.railway.app/swagger-ui/index.html) |
 | Aplicación Android | Interfaz y navegación ejecutadas en un emulador, con datos de ejemplo. Lógica e integración con el backend pendientes. | — |
 
-**Backend y Landing Page desplegados**
+**Backend desplegados**
 
 ![Trakto Route - Despliegue en Railway durante el Sprint 1](assets/images/chapter4/sprint-1-railway.png)
 
@@ -4582,9 +4572,6 @@ El trabajo se centró en la construcción de las interfaces Android, la navegaci
 
 ![Trakto Route - Contribuciones en la Landing Page](assets/images/chapter4/sprint-1-landing-contributors.png)
 
-**Contribuciones en el informe**
-
-![Trakto Route - Contribuciones en el informe](assets/images/chapter4/sprint-1-report-contributors.png)
 
 
 <div style="page-break-after: always;"></div>
