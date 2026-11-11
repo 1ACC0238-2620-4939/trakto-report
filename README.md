@@ -4627,9 +4627,7 @@ El backlog descompone las historias seleccionadas en tareas verificables. Las ho
 
 ![Trakto Route - Sprint Backlog 2](assets/images/chapter4/sprint-2-trello.png)
 
-**Sprint #** Sprint 2.
-
-[Tablero público del Sprint 2](https://trello.com/invite/b/6a9f35b637f25ac414075cf7/ATTIf84a9d213de599cd378224b9c2fa3fe4F4197A6F/mi-tablero-de-trello)
+**Tablero público del Sprint 2** :[Tablero público del Sprint 2](https://trello.com/invite/b/6a9f35b637f25ac414075cf7/ATTIf84a9d213de599cd378224b9c2fa3fe4F4197A6F/mi-tablero-de-trello)
 
 
 La aplicación está conectada y sincronizada con el backend. Al cierre del Sprint 2 queda pendiente la integración de Google Maps SDK y la visualización de rutas dentro de la aplicación, registrada en S2-T13 para continuar en el Sprint 3.
@@ -4660,13 +4658,13 @@ La siguiente tabla presenta los commits identificados para estos avances.
 | 1ACC0238-2620-4939/trakto-report | feature/dazai | 822f662 | doc: fix Lean UX Hypothesis Statements | 2026-11-10 |
 
 
-[Aplicación](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/feature/dazai)
+**Link Aplicación :** [Aplicación](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/feature/dazai)
 
-[Backend](https://github.com/1ACC0238-2620-4939/trakto-backend/tree/feature/camus)
+**Link Backend :** [Backend](https://github.com/1ACC0238-2620-4939/trakto-backend/tree/feature/camus)
 
-[Landing Page](https://github.com/1ACC0238-2620-4939/trakto-website)
+**Link Landing Page :** [Landing Page](https://github.com/1ACC0238-2620-4939/trakto-website)
 
-[Report](https://github.com/1ACC0238-2620-4939/trakto-report/tree/feature/dazai).
+**Link Report :** [Report](https://github.com/1ACC0238-2620-4939/trakto-report/tree/feature/dazai).
 
 
 <div style="page-break-after: always;"></div>
@@ -4732,11 +4730,9 @@ Los servicios REST de Trakto Route se documentan mediante OpenAPI y se consultan
 | Seguimiento — Consultar paradas | GET | `/api/v1/trackings/trips/{tripId}/stops`. Identificador del viaje en la ruta. | Lista de paradas registradas durante el viaje. |
 | Rutas — Calcular recorrido | GET | `/api/v1/routes`. Parámetros `originLatitude`, `originLongitude`, `destinationLatitude` y `destinationLongitude`. | Distancia, duración estimada, polilínea codificada y fecha de cálculo. |
 
-**Swagger UI de Trakto Route**
+**Swagger UI de Trakto Route** : [Swagger UI de Trakto Route](https://github.com/1ACC0238-2620-4939/backend).
 
-[Swagger UI de Trakto Route](https://github.com/1ACC0238-2620-4939/backend).
-
-Link : ![Trakto Route - Documentación OpenAPI de los servicios](assets/images/chapter4/sprint-2-openapi.png)
+![Trakto Route - Documentación OpenAPI de los servicios](assets/images/chapter4/sprint-2-openapi.png)
 
 <div style="page-break-after: always;"></div>
 
