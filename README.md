@@ -218,6 +218,7 @@
         - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
         - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
     - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+        - [4.2.0.1. Sprints of the entire project](#4201-sprints-of-the-entire-project)
         - [4.2.1. Sprint 1](#421-sprint-1)
             - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
             - [4.2.1.2. Aspect Leaders and Collaborators](#4212-aspect-leaders-and-collaborators)
@@ -228,6 +229,16 @@
             - [4.2.1.7. Services Documentation Evidence for Sprint Review](#4217-services-documentation-evidence-for-sprint-review)
             - [4.2.1.8. Software Deployment Evidence for Sprint Review](#4218-software-deployment-evidence-for-sprint-review)
             - [4.2.1.9. Team Collaboration Insights during Sprint](#4219-team-collaboration-insights-during-sprint)
+        - [4.2.2. Sprint 2](#422-sprint-2)
+            - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+            - [4.2.2.2. Aspect Leaders and Collaborators](#4222-aspect-leaders-and-collaborators)
+            - [4.2.2.3. Sprint Backlog 2](#4223-sprint-backlog-2)
+            - [4.2.2.4. Development Evidence for Sprint Review](#4224-development-evidence-for-sprint-review)
+            - [4.2.2.5. Testing Suite Evidence for Sprint Review](#4225-testing-suite-evidence-for-sprint-review)
+            - [4.2.2.6. Execution Evidence for Sprint Review](#4226-execution-evidence-for-sprint-review)
+            - [4.2.2.7. Services Documentation Evidence for Sprint Review](#4227-services-documentation-evidence-for-sprint-review)
+            - [4.2.2.8. Software Deployment Evidence for Sprint Review](#4228-software-deployment-evidence-for-sprint-review)
+            - [4.2.2.9. Team Collaboration Insights during Sprint](#4229-team-collaboration-insights-during-sprint)
     - [4.3. Validation Interviews](#43-validation-interviews)
         - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
         - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -4289,11 +4300,13 @@ Se prioriza una respuesta visible a cada acción: cambios de selección, resulta
 
 El video demuestra el inicio de sesión, la navegación entre módulos, las búsquedas y filtros, la consulta del perfil y el cierre de sesión, incluyendo las principales alternativas.
 
+**Captura del video del prototipo Android**
+
 ![Trakto Route - Captura del video del prototipo Android](assets/images/chapter3/app-prototype-video.png)
 
-[Ver demostración del prototipo Android en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDz1xsdKdncT7IZwYQYkurNAcopYM6Z85fVXp6svpAwkpw?e=qOW1e6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Link del video **[Ver demostración del prototipo Android en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDz1xsdKdncT7IZwYQYkurNAcopYM6Z85fVXp6svpAwkpw?e=qOW1e6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-[Ver prototipo Android en Figma](https://www.figma.com/proto/iki5xVD77DlyMXdc7jURuv/%E2%9D%96-Untitled-UI-Icons-%E2%80%93-1-100--essential-Figma-icons--Community-?node-id=3304-1968&p=f&t=dASNVbd0gkis1VNP-1&scaling=min-zoom&content-scaling=fixed&page-id=184%3A34401&starting-point-node-id=3304%3A1306)
+Prototipo en Figma : [Ver prototipo Android en Figma](https://www.figma.com/proto/6mnZlIwqJGuagWgekOwacI/Untitled?node-id=97-1696&p=f&t=0p9H7G4iR5i0wGmz-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=97%3A1696&show-proto-sidebar=1)
 
 
 <div style="page-break-after: always;"></div>
@@ -4408,6 +4421,30 @@ El Deployment Diagram C4 muestra el navegador, el dispositivo Android, los servi
 ### 4.2. Landing Page & Mobile Application Implementation
 
 Esta sección documenta el avance del Landing Page, los RESTful Web Services y la aplicación Android de Trakto Route, junto con sus evidencias de implementación y colaboración por Sprint.
+
+
+#### 4.2.0.1. Sprints of the entire project
+
+Para la planificación y organización del desarrollo de **Trakto Route**, el equipo utiliza un tablero general de **Trello** que contempla los tres sprints del proyecto, desde las primeras actividades de implementación hasta la entrega del Trabajo Final (TF).
+
+Este tablero permite visualizar la distribución de las User Stories, las tareas técnicas, los responsables y las actividades pendientes de cada sprint. Asimismo, facilita el seguimiento del progreso del equipo y la identificación de las funcionalidades necesarias para completar la solución.
+
+La organización comprende las siguientes etapas:
+
+- **Sprint 1:** Configuración inicial del entorno de desarrollo, implementación de la estructura base del backend y de la aplicación Android, desarrollo del Landing Page y elaboración de los primeros componentes de la solución.
+- **Sprint 2:** Continuación del desarrollo funcional, implementación de servicios REST, persistencia de datos, componentes de gestión de viajes y flota, seguimiento y actualización de la experiencia de usuario.
+- **Sprint 3 :** Integración de Google Maps y sus servicios geográficos, conversión de direcciones a coordenadas, generación y visualización de rutas, integración completa entre Android y backend, pruebas funcionales, validación y preparación de la entrega final.
+
+El tablero centraliza las actividades desarrolladas y pendientes, proporcionando una visión general de cómo se organiza el equipo para alcanzar los objetivos del proyecto.
+
+**Sprints of the entire project**
+
+![Trakto Route - of the entire project](assets/images/chapter4/of-the-entire-project.png)
+
+**Tablero general de los tres sprints:** [Trakto Route - Trello](https://trello.com/b/5EHE6TRc)
+
+<div style="page-break-after: always;"></div>
+
 
 #### 4.2.1. Sprint 1
 
