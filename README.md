@@ -4694,14 +4694,23 @@ Se implementaron siete pruebas automatizadas para verificar las reglas del domin
 
 La ejecución del Sprint 2 comprende la aplicación conectada al backend, la información sincronizada, la visualización de mapas y rutas y la Landing Page actualizada.
 
+**Aplicación conectada al backend**
+
 ![Trakto Route - Aplicación conectada al backend](assets/images/chapter4/app-backend.png)
+
+**Rutas**
 
 ![Trakto Route - Mapas y rutas](assets/images/chapter4/sprint-2-mapas-rutas.png)
 
+**Landing Page mejorada**
+
 ![Trakto Route - Landing Page mejorada](assets/images/chapter4/sprint-2-landing.png)
+
+**User Flow Diagrams actualizados**
 
 ![User Flow Diagrams actualizados](assets/images/chapter4/sprint-2-user-flows.png)
 
+**Prototipo actualizado**
 [Prototipo actualizado](assets/images/chapter4/prototipo).
 
 
@@ -4723,10 +4732,11 @@ Los servicios REST de Trakto Route se documentan mediante OpenAPI y se consultan
 | Seguimiento — Consultar paradas | GET | `/api/v1/trackings/trips/{tripId}/stops`. Identificador del viaje en la ruta. | Lista de paradas registradas durante el viaje. |
 | Rutas — Calcular recorrido | GET | `/api/v1/routes`. Parámetros `originLatitude`, `originLongitude`, `destinationLatitude` y `destinationLongitude`. | Distancia, duración estimada, polilínea codificada y fecha de cálculo. |
 
+**Swagger UI de Trakto Route**
 
 [Swagger UI de Trakto Route](https://github.com/1ACC0238-2620-4939/backend).
 
-![Trakto Route - Documentación OpenAPI de los servicios](assets/images/chapter4/sprint-2-openapi.png)
+Link : ![Trakto Route - Documentación OpenAPI de los servicios](assets/images/chapter4/sprint-2-openapi.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -4765,9 +4775,6 @@ Durante el Sprint 2, el equipo coordinó las actividades mediante Discord y regi
 
 ![Trakto Route - Contribuciones en la Landing Page](assets/images/chapter4/sprint-2-landing-contributors.png)
 
-**Contribuciones en el informe**
-
-![Trakto Route - Contribuciones en el informe](assets/images/chapter4/sprint-2-report-contributors.png)
 
 <div style="page-break-after: always;"></div>
 
