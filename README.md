@@ -4577,7 +4577,7 @@ El trabajo se centró en la construcción de las interfaces Android, la navegaci
 <div style="page-break-after: always;"></div>
 
 
-#### 4.2.2. Sprint 2
+## 4.2.2. Sprint 2
 
 
 Durante el Sprint 2 se conectó la aplicación con el backend y se sincronizó la información. Se incorporaron mapas y servicios geográficos, se mejoró el diseño de la Landing Page y se actualizaron los User Flow Diagrams de las historias core, el prototipo y las hipótesis Lean UX con indicadores cuantitativos.
@@ -4660,7 +4660,7 @@ La siguiente tabla presenta los commits identificados para estos avances.
 | 1ACC0238-2620-4939/trakto-report | feature/dazai | 822f662 | doc: fix Lean UX Hypothesis Statements | 2026-11-10 |
 
 
-[Aplicación AV2](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/feature/dazai)
+[Aplicación](https://github.com/1ACC0238-2620-4939/trakto-webapp/tree/feature/dazai)
 
 [Backend](https://github.com/1ACC0238-2620-4939/trakto-backend/tree/feature/camus)
 
@@ -4694,24 +4694,16 @@ Se implementaron siete pruebas automatizadas para verificar las reglas del domin
 
 La ejecución del Sprint 2 comprende la aplicación conectada al backend, la información sincronizada, la visualización de mapas y rutas y la Landing Page actualizada.
 
-![Trakto Route - Aplicación conectada al backend](https://PonerLink.COM/sprint-2-app-backend.png)
+![Trakto Route - Aplicación conectada al backend](assets/images/chapter4/app-backend.png)
 
-![Trakto Route - Mapas y rutas](https://PonerLink.COM/sprint-2-mapas-rutas.png)
+![Trakto Route - Mapas y rutas](assets/images/chapter4/sprint-2-mapas-rutas.png)
 
-![Trakto Route - Landing Page mejorada](https://PonerLink.COM/sprint-2-landing.png)
+![Trakto Route - Landing Page mejorada](assets/images/chapter4/sprint-2-landing.png)
 
-![Trakto Route - User Flows de historias core](https://PonerLink.COM/sprint-2-user-flows.png)
+![User Flow Diagrams actualizados](assets/images/chapter4/sprint-2-user-flows.png)
 
-[Video de ejecución y navegación](https://PonerLink.COM/sprint-2-video).
+[Prototipo actualizado](assets/images/chapter4/prototipo).
 
-[Prototipo actualizado](https://PonerLink.COM/prototipo).
-
-[User Flow Diagrams actualizados](https://PonerLink.COM/user-flows).
-
-| Evidencia | Referencia |
-|---|---|
-| Capturas de las pantallas y estados implementados | [PONER EVIDENCIA] |
-| Video de ejecución y navegación | [Video](https://PonerLink.COM/sprint-2-video) |
 
 <div style="page-break-after: always;"></div>
 
@@ -4730,8 +4722,6 @@ Los servicios REST de Trakto Route se documentan mediante OpenAPI y se consultan
 | Seguimiento — Consultar última posición | GET | `/api/v1/trackings/trips/{tripId}/last-position`. Identificador del viaje en la ruta. | Último reporte de posición. Devuelve `204 No Content` si todavía no existe un reporte. |
 | Seguimiento — Consultar paradas | GET | `/api/v1/trackings/trips/{tripId}/stops`. Identificador del viaje en la ruta. | Lista de paradas registradas durante el viaje. |
 | Rutas — Calcular recorrido | GET | `/api/v1/routes`. Parámetros `originLatitude`, `originLongitude`, `destinationLatitude` y `destinationLongitude`. | Distancia, duración estimada, polilínea codificada y fecha de cálculo. |
-
-**Repositorio:** [Backend](https://github.com/1ACC0238-2620-4939/backend).
 
 
 [Swagger UI de Trakto Route](https://github.com/1ACC0238-2620-4939/backend).
