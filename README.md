@@ -4843,47 +4843,6 @@ Se observarán los pasos completados, las dificultades y la ayuda requerida. Al 
 
 <div style="page-break-after: always;"></div>
 
-#### 4.3.2. Registro de Entrevistas
-
-El proceso de validación requiere realizar entre **3 y 5 entrevistas por cada segmento objetivo**. Cada sesión debe registrarse en video y documentar los datos del participante, timing y duración.
-
-##### Segmento 1: Empresas de transporte de carga
-
-###### Entrevista de validación 1
-
-| Campo | Información |
-|---|---|
-| Nombres y apellidos | [Nombre completo] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Producto evaluado | [Landing Page / aplicación / prototipo] |
-| Inicio en el video | [HH:MM:SS] |
-| Duración | [MM:SS] |
-| Video | [Entrevista de validación](URL_VIDEO_ONEDRIVE) |
-
-![Trakto Route - Entrevista de validación](assets/images/chapter4/validation-interview-01.png)
-
-**Resumen:** [Describir las tareas realizadas, las principales apreciaciones del participante, las dificultades observadas y sus sugerencias].
-
-##### Segmento 2: Clientes que requieren servicios de transporte de carga
-
-###### Entrevista de validación 1
-
-| Campo | Información |
-|---|---|
-| Nombres y apellidos | [Nombre completo] |
-| Edad | [Edad] |
-| Distrito | [Distrito] |
-| Producto evaluado | [Landing Page / aplicación / prototipo] |
-| Inicio en el video | [HH:MM:SS] |
-| Duración | [MM:SS] |
-| Video | [Entrevista de validación](URL_VIDEO_ONEDRIVE) |
-
-![Trakto Route - Entrevista de validación](assets/images/chapter4/validation-interview-01.png)
-
-**Resumen:** [Describir las tareas realizadas, las principales apreciaciones del participante, las dificultades observadas y sus sugerencias].
-
-<div style="page-break-after: always;"></div>
 
 #### 4.3.3. Evaluaciones según heurísticas
 
@@ -4900,7 +4859,57 @@ Cada hallazgo registrará la tarea y pantalla afectadas, la evidencia, la heurí
 
 ## Conclusiones y recomendaciones
 
-El trabajo realizado en Trakto Route permitió definir una propuesta orientada a reducir la falta de visibilidad y la dependencia de llamadas o mensajes para consultar las operaciones de transporte. La investigación de los segmentos objetivo respaldó la necesidad de organizar la información de viajes, conductores y vehículos, aunque los supuestos sobre el uso frecuente de la aplicación y la autonomía de consulta todavía requieren comprobarse mediante entrevistas de validación. Durante el Sprint 1 se completaron el Landing Page y los prototipos, se desarrolló la primera versión de Android y se alcanzó aproximadamente un 70 % de avance del backend. Estos resultados constituyen un avance de implementación, pero aún no permiten confirmar las hipótesis de Lean UX ni el cumplimiento de sus criterios de éxito, pues falta contrastarlos con el comportamiento de los usuarios durante las validaciones. Como siguientes pasos del roadmap, se recomienda completar la integración entre la aplicación y los servicios, implementar y comprobar la planificación de rutas y el seguimiento con paradas automáticas, incorporar pruebas automatizadas y realizar las sesiones de validación con ambos segmentos. Los hallazgos deberán orientar la priorización de mejoras en navegación, búsqueda y claridad de la información antes de ampliar las funcionalidades del producto.
+El desarrollo de Trakto Route permitió avanzar en la construcción de una solución móvil orientada a mejorar la gestión y trazabilidad de las operaciones de transporte terrestre de carga. A través de la investigación de los segmentos objetivo, las entrevistas, el proceso Lean UX y la definición de requisitos, se identificaron necesidades relacionadas con la centralización de información de viajes, vehículos, conductores y el seguimiento de envíos.
+
+Durante el Sprint 1, el equipo completó el diseño del Landing Page, los wireframes, mock-ups y prototipos interactivos, además de desarrollar la primera versión de la aplicación Android y avanzar en la implementación del backend. Estos entregables permitieron establecer una base funcional y arquitectónica para el desarrollo progresivo de Trakto Route.
+
+En el Sprint 2, se continuó con la evolución de la aplicación móvil mediante Kotlin y Jetpack Compose, incorporando avances en la navegación, organización de interfaces y comunicación con servicios REST. Asimismo, se ampliaron los servicios del backend desarrollado con Java y Spring Boot, incluyendo la gestión de viajes, vehículos, conductores y seguimiento, junto con la persistencia de información mediante MySQL. Se realizaron verificaciones de funcionamiento local, conexión con la base de datos y documentación de endpoints mediante Swagger.
+
+Desde el punto de vista técnico, la aplicación de Domain-Driven Design, CQRS y principios de arquitectura de software permitió organizar las responsabilidades del sistema y establecer una separación entre las reglas de negocio, los servicios y la infraestructura. Esto facilitó la evolución de los componentes y proporcionó una estructura para incorporar nuevas funcionalidades.
+
+Como recomendaciones para el Sprint 3, se propone priorizar la integración de las APIs de Google Maps, especialmente los servicios de geocodificación y planificación de rutas, con el propósito de convertir direcciones ingresadas por los usuarios en coordenadas geográficas, representar ubicaciones en mapas y calcular distancias y duraciones estimadas. Asimismo, se recomienda completar la integración entre Android y el backend, mejorar el seguimiento de viajes con registro de paradas y fortalecer las pruebas automatizadas y de integración.
+
+Finalmente, es necesario continuar con las validaciones de la aplicación junto a representantes de los segmentos objetivo, evaluando la facilidad de navegación, comprensión de la información y ejecución de tareas principales. Los resultados permitirán contrastar las hipótesis Lean UX y orientar futuras mejoras del producto.
+
+<div style="page-break-after: always;"></div>
+
+## Video About the Product
+
+El video **About the Product** presenta la primera versión de Trakto Route, una aplicación móvil desarrollada por el equipo Trakto para mejorar la organización y el seguimiento de las operaciones de transporte terrestre de carga.
+
+En esta presentación se explica la problemática identificada en las empresas transportistas y sus clientes, especialmente la dispersión de información operativa y la dependencia de llamadas o mensajes para consultar el estado de los viajes. Asimismo, se introduce la propuesta de valor del producto, orientada a centralizar la gestión de viajes, vehículos, conductores y rutas, y proporcionar mayor visibilidad sobre el progreso de los envíos.
+
+Esta primera versión del video permite comunicar el propósito de Trakto Route, sus segmentos objetivo y las funcionalidades planteadas como parte de la solución.
+
+**Video About the Product – Versión 1**
+
+[Ver Video About the Product V1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQC4YI6_nrluTJKaS6RV-7k8AbczxwXCDMEVu0t8hJeSHdY?e=dWYiLs)
+
+![Video About the Product - Versión 1](./assets/images/shared/video-about-product-v1.png)
+
+**Figura.** Presentación de la primera versión del video About the Product de Trakto Route.
+
+<div style="page-break-after: always;"></div>
+
+## Video About the Team
+
+El video **About the Team** presenta a Trakto, el equipo responsable de la investigación, diseño, desarrollo e implementación de Trakto Route, conformado por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC).
+
+En esta presentación se da a conocer a los integrantes del equipo, sus perfiles académicos y su participación en el desarrollo del proyecto. Asimismo, se destaca la importancia del trabajo colaborativo, la organización de actividades y la aplicación de conocimientos adquiridos durante la carrera para construir una solución tecnológica orientada a una problemática real.
+
+El equipo Trakto está conformado por Cesar Alejandro Linares Bernable, Jeferson Renzo Aguilar Aguayo, Alexander Piero Fernandez Garfias, Jose Raul Chirito Torres y Jean Franck Loa Rojas.
+
+El video constituye una evidencia de presentación del equipo y permite contextualizar las competencias, responsabilidades y objetivos compartidos por sus integrantes durante el desarrollo de Trakto Route.
+
+**Video About the Team**
+
+[Ver Video About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/IQDFGSEugPxDTL6p9GAAyIX-Acpb44mk48URrKW7jrlz1w8?e=gnRMmD)
+
+![Video About the Team](./assets/images/shared/video-about-team.png)
+
+**Figura.** Presentación de los integrantes del equipo Trakto en el video About the Team.
+
+<div style="page-break-after: always;"></div>
 
 
 ## Referencias bibliográficas
